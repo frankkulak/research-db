@@ -1,13 +1,13 @@
 export const OceanicLanguages = [
     {
-        language: "Hoava",
+        name: "Hoava",
         source: "Davis, 2003",
         family: "Western Oceanic",
         region: "Solomon Islands",
         reduplication: [
             {
                 form: "do~dola",
-                gloss: "red.prog~stare",
+                gloss: "<span>red.prog</span>~stare",
                 translation: "staring",
                 control: null,
                 page: "144",
@@ -22,7 +22,7 @@ export const OceanicLanguages = [
             },
             {
                 form: "igu~igunu",
-                gloss: "red.prog~play",
+                gloss: "<span>red.prog</span>~play",
                 translation: "playing",
                 control: null,
                 page: "145",
@@ -38,7 +38,7 @@ export const OceanicLanguages = [
         ]
     },
     {
-        language: "Rapa Nui",
+        name: "Rapa Nui",
         source: "Kieviet, 2003",
         family: "Central-Eastern Oceanic",
         region: "Easter Island, Chile",
@@ -85,12 +85,12 @@ export const OceanicLanguages = [
 
 export const OtherLanguages = [
     {
-        language: "Aztec",
+        name: "Aztec",
         source: "Moravcsik, 1978",
         reduplication: [
             {
                 form: "wom~woman",
-                gloss: "red.1sg~bark.at",
+                gloss: "<span>red.1sg</span>~bark.at",
                 translation: "he is barking at",
                 control: null,
                 page: "308",
@@ -106,12 +106,12 @@ export const OtherLanguages = [
         ]
     },
     {
-        language: "Mandarin",
+        name: "Mandarin",
         source: "Moravcsik, 1978",
         reduplication: [
             {
                 form: "ren~ren",
-                gloss: "red.coll~man",
+                gloss: "<span>red.coll</span>~man",
                 translation: "everyone",
                 control: null,
                 page: "318",
