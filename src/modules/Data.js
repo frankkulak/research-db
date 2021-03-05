@@ -41,7 +41,7 @@ export const OceanicLanguages = [
         name: "Rapa Nui",
         source: "Kieviet, 2003",
         family: "Central-Eastern Oceanic",
-        region: "Easter Island, Chile",
+        region: "Easter Island",
         reduplication: [
             {
                 form: "mānaꞌunaꞌu",

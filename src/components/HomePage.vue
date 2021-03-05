@@ -16,9 +16,10 @@
 
                 <b-col cols="8">
                     <b-input-group>
-                        <b-form-input></b-form-input>
+                        <b-form-input v-model="filterQueryText" placeholder="Enter filters"
+                                      @keydown.enter.native="keydownEventHandler"></b-form-input>
                         <b-input-group-append>
-                            <b-button variant="outline-primary">Filter</b-button>
+                            <b-button variant="outline-primary" @click="applyFilters">Filter</b-button>
                         </b-input-group-append>
                     </b-input-group>
                 </b-col>
@@ -41,6 +42,7 @@
 
 <script>
     import {OceanicLanguages, OtherLanguages} from "@/modules/Data";
+    import {getFilters} from "@/modules/Filter";
     import LanguageDisplay from "@/components/LanguageDisplay";
 
     const sortByName = (val1, val2) => {
@@ -55,15 +57,40 @@
         }
     };
 
+    const sortedOceanicLanguages = OceanicLanguages.sort(sortByName);
+    const sortedOtherLanguages = OtherLanguages.sort(sortByName);
+
     export default {
         name: 'HomePage',
         components: {LanguageDisplay},
         data: function () {
             return {
-                oceanicLanguages: OceanicLanguages.sort(sortByName),
-                otherLanguages: OtherLanguages.sort(sortByName),
                 showTags: 'false',
-                showOther: 'true'
+                showOther: 'false',
+                filterQueryText: '',
+                filterQueries: ''
+            }
+        },
+        computed: {
+            oceanicLanguages() {
+                let languagesToShow = sortedOceanicLanguages;
+
+                getFilters(this.filterQueries).forEach(function (filterFunction) {
+                    languagesToShow = languagesToShow.filter(filterFunction);
+                });
+
+                return languagesToShow;
+            },
+            otherLanguages() {
+                return sortedOtherLanguages;
+            }
+        },
+        methods: {
+            applyFilters() {
+                this.filterQueries = this.filterQueryText;
+            },
+            keydownEventHandler() {
+                this.applyFilters();
             }
         }
     }
