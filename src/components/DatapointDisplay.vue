@@ -1,5 +1,5 @@
 <template>
-    <b-col class="datapoint-display py-2 px-4 ml-3 text-left" cols="auto">
+    <b-col class="datapoint-display py-2 ml-3 text-left" cols="auto">
         <b-row>
             <b-col v-if="data.control !== null" cols="auto">
                 <em class="form">{{ data.control.form }}</em>
@@ -15,6 +15,9 @@
                 <p class="translation">'{{ data.translation }}' (p. {{ data.page }})</p>
             </b-col>
         </b-row>
+        <b-row v-if="data.tags.length > 0" v-show="showTags === 'true'" class="mr-3 mt-3">
+            <p v-for="tag in data.tags" :key="tag" class="tag ml-3 px-1">{{ tag }}</p>
+        </b-row>
     </b-col>
 </template>
 
@@ -22,7 +25,8 @@
     export default {
         name: "DatapointDisplay",
         props: {
-            data: Object
+            data: Object,
+            showTags: String
         }
     }
 </script>
@@ -36,6 +40,13 @@
         .row {
             display: flex;
             align-items: center;
+        }
+
+        p.tag {
+            border-style: solid;
+            border-radius: 3px;
+            border-width: 1px;
+            background-color: #f1f6fb;
         }
 
         em, p {

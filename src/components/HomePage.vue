@@ -1,24 +1,40 @@
 <template>
     <div id="home">
-        <section id="search" class="p-5 mx-auto">
-            <b-input-group>
-                <b-form-input></b-form-input>
-                <b-input-group-append>
-                    <b-button variant="outline-success">Filter</b-button>
-                </b-input-group-append>
-            </b-input-group>
-        </section>
-
         <b-container fluid class="text-left px-5">
-            <hr>
-            <p class="mb-5"><em>Oceanic Languages</em></p>
-            <language-display v-for="language in oceanicLanguages" :key="language.name"
-                              :lang="language" :oceanic="true"/>
+            <b-row id="filter-area" class="p-5 mx-auto">
+                <b-col cols="4" class="text-left">
+                    <b-form-checkbox id="cbox-tags" v-model="showTags" name="cbox-tags"
+                                     value="true" unchecked-value="false">
+                        Show tags
+                    </b-form-checkbox>
+
+                    <b-form-checkbox id="cbox-other" v-model="showOther" name="cbox-other"
+                                     value="true" unchecked-value="false">
+                        Show non-Oceanic languages
+                    </b-form-checkbox>
+                </b-col>
+
+                <b-col cols="8">
+                    <b-input-group>
+                        <b-form-input></b-form-input>
+                        <b-input-group-append>
+                            <b-button variant="outline-primary">Filter</b-button>
+                        </b-input-group-append>
+                    </b-input-group>
+                </b-col>
+            </b-row>
 
             <hr>
-            <p class="mb-5"><em>Other Languages</em></p>
-            <language-display v-for="language in otherLanguages" :key="language.name"
-                              :lang="language" :oceanic="false"/>
+            <h6 class="mb-5"><em>Oceanic Languages</em></h6>
+            <language-display v-for="language in oceanicLanguages" :key="language.name"
+                              :lang="language" :oceanic="true" :show-tags="showTags"/>
+
+            <div v-show="showOther === 'true'">
+                <hr>
+                <h6 class="mb-5"><em>Other Languages</em></h6>
+                <language-display v-for="language in otherLanguages" :key="language.name"
+                                  :lang="language" :oceanic="false" :show-tags="showTags"/>
+            </div>
         </b-container>
     </div>
 </template>
@@ -46,6 +62,8 @@
             return {
                 oceanicLanguages: OceanicLanguages.sort(sortByName),
                 otherLanguages: OtherLanguages.sort(sortByName),
+                showTags: 'false',
+                showOther: 'true'
             }
         }
     }
@@ -53,8 +71,6 @@
 
 <style lang="scss">
     #home {
-        section#search {
-            max-width: 728px;
-        }
+        // intentionally blank
     }
 </style>

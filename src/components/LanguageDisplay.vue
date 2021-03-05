@@ -1,12 +1,13 @@
 <template>
     <b-row class="language-display mb-5">
-        <b-col cols="12" class="text-left">
+        <b-col cols="12" class="text-left mb-3">
             <h3><strong>{{ lang.name }}</strong></h3>
-            <p v-if="oceanic">{{ lang.family }}, {{ lang.region }} (Source: {{ lang.source }})</p>
-            <p v-else>(Source: {{ lang.source }})</p>
+            <h6 v-if="oceanic">{{ lang.family }}, {{ lang.region }} (Source: {{ lang.source }})</h6>
+            <h6 v-else>(Source: {{ lang.source }})</h6>
         </b-col>
 
-        <datapoint-display v-for="(data, n) in lang.reduplication" :key="`${lang.name}-${n}`" :data="data"/>
+        <datapoint-display v-for="(data, n) in lang.reduplication" :key="`${lang.name}-${n}`" :data="data"
+                           :show-tags="showTags"/>
     </b-row>
 </template>
 
@@ -17,7 +18,8 @@
         components: {DatapointDisplay},
         props: {
             lang: Object,
-            oceanic: Boolean
+            oceanic: Boolean,
+            showTags: String
         }
     }
 </script>

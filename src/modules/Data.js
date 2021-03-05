@@ -17,7 +17,7 @@ export const OceanicLanguages = [
                     "monosyllabic",
                     "progressive",
                     "verb",
-                    "inflection"
+                    "inflection",
                 ]
             },
             {

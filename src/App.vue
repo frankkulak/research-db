@@ -27,5 +27,9 @@
         text-align: center;
         color: #2c3e50;
         background-color: #f1f6fb;
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Avenir, Arial, sans-serif;
+        }
     }
 </style>
