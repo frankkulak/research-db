@@ -36,6 +36,15 @@ function regionFilter(regionArguments, reverse = false) {
     }
 }
 
+function languageFilter(languageArguments, reverse = false) {
+    const targetLanguages = languageArguments.split(",");
+    if (reverse) {
+        return ({name}) => !targetLanguages.includes(name);
+    } else {
+        return ({name}) => targetLanguages.includes(name);
+    }
+}
+
 function generateFilter(filterType, filterArguments) {
     switch(filterType.trim()) {
         case "f":
@@ -54,6 +63,14 @@ function generateFilter(filterType, filterArguments) {
         case "!region":
         case "!r":
             return regionFilter(filterArguments, true);
+        case "l":
+        case "lang":
+        case "language":
+            return languageFilter(filterArguments);
+        case "!l":
+        case "!lang":
+        case "!language":
+            return languageFilter(filterArguments, true);
         default:
             return null;
     }

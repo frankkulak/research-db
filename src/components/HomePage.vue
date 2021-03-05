@@ -27,8 +27,13 @@
 
             <hr>
             <h6 class="mb-5"><em>Oceanic Languages</em></h6>
-            <language-display v-for="language in oceanicLanguages" :key="language.name"
-                              :lang="language" :oceanic="true" :show-tags="showTags"/>
+            <div v-show="oceanicLanguages.length > 0">
+                <language-display v-for="language in oceanicLanguages" :key="language.name"
+                                  :lang="language" :oceanic="true" :show-tags="showTags"/>
+            </div>
+            <div v-show="oceanicLanguages.length === 0" class="mb-5">
+                <em>No entries match this query.</em>
+            </div>
 
             <div v-show="showOther === 'true'">
                 <hr>
