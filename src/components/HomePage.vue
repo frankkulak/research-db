@@ -12,6 +12,11 @@
                                      value="true" unchecked-value="false">
                         Show non-Oceanic languages
                     </b-form-checkbox>
+
+                    <b-form-checkbox id="cbox-nomatch" v-model="showNoMatch" name="cbox-nomatch"
+                                     value="true" unchecked-value="false">
+                        Show languages without matches
+                    </b-form-checkbox>
                 </b-col>
 
                 <b-col cols="8">
@@ -30,7 +35,7 @@
             <div v-show="oceanicLanguages.length > 0">
                 <language-display v-for="language in oceanicLanguages" :key="language.name"
                                   :lang="language" :oceanic="true" :show-tags="showTags"
-                                  :filter-queries="filterQueries"/>
+                                  :filter-queries="filterQueries" :show-no-match="showNoMatch"/>
             </div>
             <div v-show="oceanicLanguages.length === 0" class="mb-5">
                 <em>No matching languages.</em>
@@ -41,7 +46,7 @@
                 <h6 class="mb-5"><em>Other Languages</em></h6>
                 <language-display v-for="language in otherLanguages" :key="language.name"
                                   :lang="language" :oceanic="false" :show-tags="showTags"
-                                  :filter-queries="filterQueries"/>
+                                  :filter-queries="filterQueries" :show-no-match="showNoMatch"/>
             </div>
         </b-container>
     </div>
@@ -75,7 +80,8 @@
                 showTags: 'false',
                 showOther: 'false',
                 filterQueryText: '',
-                filterQueries: ''
+                filterQueries: '',
+                showNoMatch: 'false'
             }
         },
         computed: {

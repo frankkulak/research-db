@@ -1,5 +1,5 @@
 <template>
-    <b-row class="language-display mb-5">
+    <b-row class="language-display mb-5" v-show="(showNoMatch === 'true') || entries.length > 0">
         <b-col cols="12" class="text-left mb-3">
             <h3><strong>{{ lang.name }}</strong></h3>
             <h6 v-if="oceanic">{{ lang.family }}, {{ lang.region }} (Source: {{ lang.source }})</h6>
@@ -26,7 +26,8 @@
             lang: Object,
             oceanic: Boolean,
             showTags: String,
-            filterQueries: String
+            filterQueries: String,
+            showNoMatch: String
         },
         computed: {
             entries() {

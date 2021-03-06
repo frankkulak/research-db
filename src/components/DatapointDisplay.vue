@@ -1,5 +1,5 @@
 <template>
-    <b-col class="datapoint-display py-2 ml-3 text-left" cols="auto">
+    <b-col class="datapoint-display py-2 ml-3 text-left mb-3" cols="auto">
         <b-row>
             <b-col v-if="data.control !== null" cols="auto">
                 <em class="form">{{ data.control.form }}</em>
