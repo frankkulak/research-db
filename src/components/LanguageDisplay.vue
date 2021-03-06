@@ -6,20 +6,38 @@
             <h6 v-else>(Source: {{ lang.source }})</h6>
         </b-col>
 
-        <datapoint-display v-for="(data, n) in lang.reduplication" :key="`${lang.name}-${n}`" :data="data"
+        <datapoint-display v-for="(entry, n) in entries" :key="`${lang.name}-${n}`" :data="entry"
                            :show-tags="showTags"/>
+
+        <div v-show="entries.length === 0" class="mb-5">
+            <em class="ml-3">No matching entries.</em>
+        </div>
     </b-row>
 </template>
 
 <script>
     import DatapointDisplay from "@/components/DatapointDisplay";
+    import {getTagFilters} from "@/modules/Filter";
+
     export default {
         name: "LanguageDisplay",
         components: {DatapointDisplay},
         props: {
             lang: Object,
             oceanic: Boolean,
-            showTags: String
+            showTags: String,
+            filterQueries: String
+        },
+        computed: {
+            entries() {
+                let entriesToShow = this.lang.reduplication;
+
+                getTagFilters(this.filterQueries).forEach(function (filterFunction) {
+                    entriesToShow = entriesToShow.filter(filterFunction);
+                });
+
+                return entriesToShow;
+            }
         }
     }
 </script>

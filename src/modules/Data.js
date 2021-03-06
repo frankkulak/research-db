@@ -60,6 +60,7 @@ export const OceanicLanguages = [
                     "iterative",
                     "all but first",
                     "verb",
+                    "derivation",
                 ]
             },
             {
@@ -77,6 +78,7 @@ export const OceanicLanguages = [
                     "total",
                     "iterative",
                     "verb",
+                    "derivation",
                 ]
             },
         ]

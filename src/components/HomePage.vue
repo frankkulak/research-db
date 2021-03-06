@@ -29,17 +29,19 @@
             <h6 class="mb-5"><em>Oceanic Languages</em></h6>
             <div v-show="oceanicLanguages.length > 0">
                 <language-display v-for="language in oceanicLanguages" :key="language.name"
-                                  :lang="language" :oceanic="true" :show-tags="showTags"/>
+                                  :lang="language" :oceanic="true" :show-tags="showTags"
+                                  :filter-queries="filterQueries"/>
             </div>
             <div v-show="oceanicLanguages.length === 0" class="mb-5">
-                <em>No entries match this query.</em>
+                <em>No matching languages.</em>
             </div>
 
             <div v-show="showOther === 'true'">
                 <hr>
                 <h6 class="mb-5"><em>Other Languages</em></h6>
                 <language-display v-for="language in otherLanguages" :key="language.name"
-                                  :lang="language" :oceanic="false" :show-tags="showTags"/>
+                                  :lang="language" :oceanic="false" :show-tags="showTags"
+                                  :filter-queries="filterQueries"/>
             </div>
         </b-container>
     </div>

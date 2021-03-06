@@ -87,3 +87,44 @@ export function getFilters(filterQueries) {
 
     return filtersToReturn;
 }
+
+
+function tagFilter(tagArguments, reverse = false) {
+    const targetTags = tagArguments.split(",");
+    return function ({tags}) {
+        for (let i = 0; i < targetTags.length; i++) {
+            const tag = targetTags[i];
+            if (tags.includes(tag.trim())) return !reverse;
+        }
+
+        return reverse;
+    };
+}
+
+function generateTagFilter(filterType, filterArguments) {
+    switch(filterType.trim()) {
+        case "t":
+        case "tag":
+        case "tags":
+            return tagFilter(filterArguments);
+        case "!t":
+        case "!tag":
+        case "!tags":
+            return tagFilter(filterArguments, true);
+        default:
+            return null;
+    }
+}
+
+
+export function getTagFilters(filterQueries) {
+    const filtersToReturn = [];
+
+    filterQueries.split(";").forEach(function (filterQuery) {
+        const [filterType, filterArguments] = filterQuery.split("=");
+        const filterToAdd = generateTagFilter(filterType, filterArguments);
+        if (filterToAdd !== null) filtersToReturn.push(filterToAdd);
+    });
+
+    return filtersToReturn;
+}
