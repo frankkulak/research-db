@@ -9,6 +9,9 @@ const shorthands = {
     png: "Papua New Guinea",
     hw: "Hawaii",
     ei: "Easter Island",
+    tv: "Tuvalu",
+    nz: "New Zealand",
+    sa: "Samoa",
 };
 
 function replaceShorthands(entry) {

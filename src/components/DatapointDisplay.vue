@@ -15,15 +15,15 @@
                 <p class="translation">'{{ data.translation }}' (p. {{ data.page }})</p>
             </b-col>
         </b-row>
-        <b-row v-if="data.tags.length > 0" v-show="showTags === 'true'" class="mr-3 mt-3">
-            <p v-for="tag in data.tags" :key="tag" class="tag ml-3 px-1">{{ tag }}</p>
-        </b-row>
+        <tag-list :show-self="showTags" :tag-list="data.tags"/>
     </b-col>
 </template>
 
 <script>
+    import TagList from "@/components/TagList";
     export default {
         name: "DatapointDisplay",
+        components: {TagList},
         props: {
             data: Object,
             showTags: String
@@ -40,13 +40,6 @@
         .row {
             display: flex;
             align-items: center;
-        }
-
-        p.tag {
-            border-style: solid;
-            border-radius: 3px;
-            border-width: 1px;
-            background-color: #f1f6fb;
         }
 
         em, p {

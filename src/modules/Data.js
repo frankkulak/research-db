@@ -7,7 +7,7 @@ export const OceanicLanguages = [
         reduplication: [
             {
                 form: "do~dola",
-                gloss: "<span>red.prog</span>~stare",
+                gloss: "<span>red</span>~stare",
                 translation: "staring",
                 control: null,
                 page: "144",
@@ -22,7 +22,7 @@ export const OceanicLanguages = [
             },
             {
                 form: "igu~igunu",
-                gloss: "<span>red.prog</span>~play",
+                gloss: "<span>red</span>~play",
                 translation: "playing",
                 control: null,
                 page: "145",
@@ -93,6 +93,110 @@ export const OceanicLanguages = [
                     "affixation"
                 ]
             },
+            {
+                form: "qato~qato-ana",
+                gloss: "<span>red</span>~tree-<span>nom</span>",
+                translation: "forest",
+                control: {
+                    form: "qato",
+                    gloss: "tree",
+                    translation: "tree"
+                },
+                page: "42",
+                tags: [
+                    "total",
+                    "nominalizer",
+                    "noun",
+                    "derivation",
+                    "affixation"
+                ]
+            },
+            {
+                form: "kaba~kabasa-na",
+                gloss: "<span>red</span>~house-<span>nom</span>",
+                translation: "village",
+                control: {
+                    form: "kabasa",
+                    gloss: "house",
+                    translation: "house"
+                },
+                page: "42",
+                tags: [
+                    "partial",
+                    "initial",
+                    "bisyllabic",
+                    "nominalizer",
+                    "noun",
+                    "derivation",
+                    "affixation"
+                ]
+            },
+            {
+                form: "lo~lose",
+                gloss: "<span>red</span>~room",
+                translation: "wall",
+                control: {
+                    form: "lose",
+                    gloss: "room",
+                    translation: "room"
+                },
+                page: "45",
+                tags: [
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "nominalizer",
+                    "noun",
+                    "derivation",
+                ]
+            },
+            {
+                form: "mata~mata",
+                gloss: "<span>red</span>~eye",
+                translation: "front of house",
+                control: {
+                    form: "mata",
+                    gloss: "eye",
+                    translation: "eye"
+                },
+                page: "45",
+                tags: [
+                    "total",
+                    "nominalizer",
+                    "noun",
+                    "derivation",
+                ]
+            },
+            {
+                form: "hade~hade",
+                gloss: "<span>red</span>~wrap",
+                translation: "parcel",
+                control: {
+                    form: "hade",
+                    gloss: "wrap",
+                    translation: "to wrap"
+                },
+                page: "45",
+                tags: [
+                    "total",
+                    "nominalizer",
+                    "verb",
+                    "derivation",
+                ]
+            },
+            {
+                form: "e-mami ŋ<in>ani kisi~kisi qa",
+                gloss: "<span>edposs</span>-<span>1pl.ex</span> &lt;<span>nom</span>&gt;eat <span>red</span>~be.small <span>rest</span>",
+                translation: "just our very small piece of food",
+                control: null,
+                page: "75",
+                tags: [
+                    "total",
+                    "intensifier",
+                    "verb",
+                    "inflection",
+                ]
+            },
         ]
     },
     {
@@ -117,6 +221,8 @@ export const OceanicLanguages = [
                     "final",
                     "iterative",
                     "all but first",
+                    "bisyllabic",
+                    "stem alteration",
                     "verb",
                     "derivation",
                 ]
@@ -252,6 +358,20 @@ export const OceanicLanguages = [
         region: "Papua New Guinea",
         reduplication: []
     },
+    {
+        name: "Samoan",
+        source: "Mosel & Hovdhaugen, 1992",
+        family: "Central-Eastern Oceanic",
+        region: "Samoa",
+        reduplication: []
+    },
+    {
+        name: "Maori",
+        source: "Harlow, 2015",
+        family: "Central-Eastern Oceanic",
+        region: "New Zealand",
+        reduplication: []
+    },
 ];
 
 export const OtherLanguages = [
@@ -261,7 +381,7 @@ export const OtherLanguages = [
         reduplication: [
             {
                 form: "wom~woman",
-                gloss: "<span>red.1sg</span>~bark.at",
+                gloss: "<span>red</span>~bark.at",
                 translation: "he is barking at",
                 control: null,
                 page: "308",
@@ -282,7 +402,7 @@ export const OtherLanguages = [
         reduplication: [
             {
                 form: "ren~ren",
-                gloss: "<span>red.coll</span>~man",
+                gloss: "<span>red</span>~man",
                 translation: "everyone",
                 control: null,
                 page: "318",
@@ -295,3 +415,18 @@ export const OtherLanguages = [
         ]
     },
 ];
+
+export const AllTags = function() {
+    const tagCounts = {};
+
+    OceanicLanguages.forEach(function ({reduplication}) {
+        reduplication.forEach(function ({tags}) {
+            tags.forEach(function (tag) {
+                const tagCount = tagCounts[tag];
+                tagCounts[tag] = tagCount === undefined ? 1 : tagCount + 1;
+            });
+        });
+    });
+
+    return tagCounts;
+}();
