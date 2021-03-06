@@ -359,18 +359,269 @@ export const OceanicLanguages = [
         reduplication: []
     },
     {
-        name: "Samoan",
-        source: "Mosel & Hovdhaugen, 1992",
-        family: "Central-Eastern Oceanic",
-        region: "Samoa",
-        reduplication: []
-    },
-    {
-        name: "Maori",
+        name: "Māori",
         source: "Harlow, 2015",
         family: "Central-Eastern Oceanic",
         region: "New Zealand",
-        reduplication: []
+        reduplication: [
+            {
+                form: "ngā tāngata pa~pai",
+                gloss: "<span>det</span> people <span>red</span>~good",
+                translation: "the good people",
+                control: {
+                    form: "pai",
+                    gloss: "good",
+                    translation: "good",
+                },
+                page: "102",
+                tags: [
+                    "adjective",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "agreement",
+                    "plural",
+                    "inflection",
+                ]
+            },
+            {
+                form: "nu~nui",
+                gloss: "<span>red</span>~big",
+                translation: "very big",
+                control: {
+                    form: "nui",
+                    gloss: "big",
+                    translation: "big",
+                },
+                page: "102",
+                tags: [
+                    "adjective",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "intensification",
+                    "inflection",
+                ]
+            },
+            {
+                form: "pa~pango",
+                gloss: "<span>red</span>~black",
+                translation: "somewhat black",
+                control: {
+                    form: "pango",
+                    gloss: "black",
+                    translation: "black",
+                },
+                page: "102",
+                tags: [
+                    "adjective",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "weakening",
+                    "color",
+                    "inflection",
+                ]
+            },
+            {
+                form: "wera~wera",
+                gloss: "<span>red</span>~hot",
+                translation: "warm",
+                control: {
+                    form: "wera",
+                    gloss: "hot",
+                    translation: "hot",
+                },
+                page: "103",
+                tags: [
+                    "adjective",
+                    "total",
+                    "weakening",
+                    "inflection",
+                ]
+            },
+            {
+                form: "pa~patu",
+                gloss: "<span>red</span>~strike",
+                translation: "to strike together, to beat each other",
+                control: {
+                    form: "patu",
+                    gloss: "strike",
+                    translation: "to strike",
+                },
+                page: "102",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "reciprocal",
+                    "inflection",
+                    "derivation"
+                ]
+            },
+            {
+                form: "ki~kimo",
+                gloss: "<span>red</span>~blink",
+                translation: "to keep the eyes firmly closed",
+                control: {
+                    form: "kimo",
+                    gloss: "blink",
+                    translation: "to blink",
+                },
+                page: "103",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "intensification",
+                    "derivation",
+                    "inflection",
+                    "lexical",
+                ]
+            },
+            {
+                form: "kimo~kimo",
+                gloss: "<span>red</span>~blink",
+                translation: "to blink frequently",
+                control: {
+                    form: "kimo",
+                    gloss: "blink",
+                    translation: "to blink",
+                },
+                page: "103",
+                tags: [
+                    "verb",
+                    "total",
+                    "iterative",
+                    "inflection",
+                ]
+            },
+            {
+                form: "paki~paki",
+                gloss: "<span>red</span>~slap",
+                translation: "to slap frequently, to clap",
+                control: {
+                    form: "paki",
+                    gloss: "slap",
+                    translation: "to slap",
+                },
+                page: "103",
+                tags: [
+                    "verb",
+                    "total",
+                    "iterative",
+                    "inflection",
+                    "derivation",
+                ]
+            },
+            {
+                form: "tū~tū",
+                gloss: "<span>red</span>~stand.up",
+                translation: "to stand up (individually)",
+                control: {
+                    form: "tū",
+                    gloss: "stand.up",
+                    translation: "to stand up (together)",
+                },
+                page: "103",
+                tags: [
+                    "verb",
+                    "total",
+                    "individuality",
+                    "inflection",
+                ]
+            },
+            {
+                form: "kuru~kuru",
+                gloss: "<span>red</span>~throw",
+                translation: "to throw (2+ objects)",
+                control: {
+                    form: "kuru",
+                    gloss: "throw",
+                    translation: "to throw (1 object)",
+                },
+                page: "103",
+                tags: [
+                    "verb",
+                    "total",
+                    "agreement",
+                    "inflection",
+                ]
+            },
+            {
+                form: "Kua tīmata ia ki te kurukuru rīwai",
+                gloss: "UNAVAILABLE",
+                translation: "He has started to chuck potatoes about",
+                control: null,
+                page: "103",
+                tags: [
+                    "verb",
+                    "total",
+                    "agreement",
+                    "inflection",
+                ]
+            },
+            {
+                form: "tākai",
+                gloss: "bandage.<span>n</span>",
+                translation: "bandage",
+                control: {
+                    form: "takai",
+                    gloss: "wrap.up",
+                    translation: "to wrap up"
+                },
+                page: "104",
+                tags: [
+                    "verb",
+                    "lengthening",
+                    "partial",
+                    "medial",
+                    "nominalizer",
+                    "derivation",
+                ]
+            },
+            {
+                form: "tāweweke",
+                gloss: "slow",
+                translation: "slow",
+                control: {
+                    form: "taweke",
+                    gloss: "linger",
+                    translation: "to linger"
+                },
+                page: "104",
+                tags: [
+                    "verb",
+                    "lengthening",
+                    "partial",
+                    "medial",
+                    "adjectivizer",
+                    "derivation",
+                ]
+            },
+            {
+                form: "pākarukaru",
+                gloss: "break.in.pieces",
+                translation: "to break in pieces",
+                control: {
+                    form: "pakaru",
+                    gloss: "broken",
+                    translation: "broken"
+                },
+                page: "104",
+                tags: [
+                    "adjective",
+                    "lengthening",
+                    "partial",
+                    "medial",
+                    "all but first",
+                    "verbalizer",
+                    "derivation",
+                ]
+            },
+        ]
     },
 ];
 
