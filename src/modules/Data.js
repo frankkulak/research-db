@@ -193,8 +193,213 @@ export const OceanicLanguages = [
                 tags: [
                     "total",
                     "intensifier",
+                    "emphasis",
                     "verb",
                     "inflection",
+                ]
+            },
+            {
+                form: "/bumbuma/",
+                gloss: "N/A",
+                translation: "variety of small blue reef fish",
+                control: {
+                    form: "/buma/",
+                    gloss: "blue",
+                    translation: "blue"
+                },
+                page: "26",
+                tags: [
+                    "partial",
+                    "elision",
+                    "verb",
+                    "adjective",
+                    "nominalizer",
+                    "initial",
+                    "monosyllabic",
+                    "derivation"
+                ]
+            },
+            {
+                form: "/ɣasɣasa/",
+                gloss: "N/A",
+                translation: "jumping",
+                control: {
+                    form: "/ɣasa/",
+                    gloss: "jump",
+                    translation: "jump"
+                },
+                page: "26",
+                tags: [
+                    "partial",
+                    "elision",
+                    "verb",
+                    "progressive",
+                    "inflection",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "/hiɣhiɣala/",
+                gloss: "N/A",
+                translation: "gardening",
+                control: {
+                    form: "/hiɣala/",
+                    gloss: "garden",
+                    translation: "to garden"
+                },
+                page: "26",
+                tags: [
+                    "partial",
+                    "elision",
+                    "verb",
+                    "progressive",
+                    "inflection",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "/kamkaᵐbɔ/",
+                gloss: "N/A",
+                translation: "crying",
+                control: {
+                    form: "/kabɔ/",
+                    gloss: "cry",
+                    translation: "cry"
+                },
+                page: "26",
+                tags: [
+                    "partial",
+                    "elision",
+                    "verb",
+                    "progressive",
+                    "inflection",
+                    "initial",
+                    "monosyllabic",
+                    "stem alteration",
+                    "prenasalization"
+                ]
+            },
+            {
+                form: "[kɔ~kɔ]",
+                gloss: "<span>red</span>~stay",
+                translation: "staying",
+                control: {
+                    form: "[kɔ]",
+                    gloss: "stay",
+                    translation: "stay"
+                },
+                page: "31",
+                tags: [
+                    "total",
+                    "verb",
+                    "progressive",
+                    "inflection",
+                    "initial",
+                ]
+            },
+            {
+                form: "ke~keke",
+                gloss: "<span>red</span>~one",
+                translation: "only one",
+                control: {
+                    form: "keke",
+                    gloss: "one",
+                    translation: "one"
+                },
+                page: "68",
+                tags: [
+                    "partial",
+                    "number",
+                    "emphasis",
+                    "inflection",
+                    "initial",
+                ]
+            },
+            {
+                form: "ria nikana baha~baha-di",
+                gloss: "<span>art.pl</span> man <span>red</span>~magic-<span>3pl</span>",
+                translation: "the magic men",
+                control: null,
+                page: "68",
+                tags: [
+                    "total",
+                    "derivation",
+                    "inflection",
+                    "noun",
+                    "verbalizer",
+                    "initial",
+                ]
+            },
+            {
+                form: "podepode",
+                gloss: "N/A",
+                translation: "try hard",
+                control: {
+                    form: "pode",
+                    gloss: "N/A",
+                    translation: "try"
+                },
+                page: "131",
+                tags: [
+                    "total",
+                    "verb",
+                    "emphasis",
+                    "intensifier",
+                    "inflection",
+                    "initial",
+                ]
+            },
+            {
+                form: "Ku~kuqi kumana sa kaleqe",
+                gloss: "<span>red</span>~slap.water continuously <span>art.sg</span> old.woman",
+                translation: "The old woman was slapping the water continuously.",
+                control: null,
+                page: "145",
+                tags: [
+                    "partial",
+                    "monosyllabic",
+                    "inflection",
+                    "verb",
+                    "continuous",
+                    "progressive",
+                    "initial"
+                ]
+            },
+            {
+                form: "Koni ra~raro goe onomo kolokolo",
+                gloss: "<span>fut</span> <span>red</span>~cook <span>2sg</span> six clock",
+                translation: "You will be cooking at 6 o'clock (every day).",
+                control: null,
+                page: "147",
+                tags: [
+                    "partial",
+                    "monosyllabic",
+                    "inflection",
+                    "verb",
+                    "habitual",
+                    "initial"
+                ]
+            },
+            {
+                form: "Hera sa kakatuana, hera~hera la ko ria nikana.",
+                gloss: "here <span>art.sg</span> stone.oven <span>red</span>~here go stay <span>art.pl</span> man",
+                translation: "Here is the stone oven; over here the men stay.",
+                control: {
+                    form: "Mae ko varigara hera eri karu.",
+                    gloss: "come stay gather here <span>art.pl</span> two",
+                    translation: "The two of them stayed together here."
+                },
+                page: "224",
+                tags: [
+                    "total",
+                    "inflection",
+                    "derivation",
+                    "initial",
+                    "contrast",
+                    "location",
+                    "noun"
                 ]
             },
         ]
@@ -341,7 +546,7 @@ export const OceanicLanguages = [
         name: "Yapese",
         source: "Jenson, 1977",
         family: "Yapese",
-        region: "Papua New Guinea",
+        region: "Micronesia",
         reduplication: []
     },
     {
