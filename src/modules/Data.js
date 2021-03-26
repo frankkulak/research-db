@@ -423,6 +423,7 @@ export const OceanicLanguages = [
                 tags: [
                     "lexical",
                     "partial",
+                    "lengthening",
                     "final",
                     "iterative",
                     "all but first",
@@ -482,6 +483,212 @@ export const OceanicLanguages = [
                     "total",
                     "verbalizer",
                     "derivation",
+                ]
+            },
+            {
+                form: "ta~taŋi",
+                gloss: "<span>red</span>~cry",
+                translation: "to cry (plural)",
+                control: {
+                    form: "taŋi",
+                    gloss: "cry",
+                    translation: "to cry",
+                },
+                page: "60",
+                tags: [
+                    "verb",
+                    "partial",
+                    "inflection",
+                    "monosyllabic",
+                    "initial",
+                    "agreement"
+                ]
+            },
+            {
+                form: "'a~'ara",
+                gloss: "<span>red</span>~wake.up",
+                translation: "to wake up (plural)",
+                control: {
+                    form: "'ara",
+                    gloss: "wake.up",
+                    translation: "to wake up",
+                },
+                page: "62",
+                tags: [
+                    "verb",
+                    "partial",
+                    "inflection",
+                    "monosyllabic",
+                    "initial",
+                    "agreement"
+                ]
+            },
+            {
+                form: "re~rehu",
+                gloss: "<span>red</span>~forget",
+                translation: "to faint",
+                control: {
+                    form: "rehu",
+                    gloss: "forget",
+                    translation: "to forget",
+                },
+                page: "62",
+                tags: [
+                    "verb",
+                    "partial",
+                    "derivation",
+                    "monosyllabic",
+                    "initial",
+                    "verbalization"
+                ]
+            },
+            {
+                form: "pā~pā",
+                gloss: "<span>red</span>~fold",
+                translation: "to fold repeatedly",
+                control: {
+                    form: "pā",
+                    gloss: "fold",
+                    translation: "to fold",
+                },
+                page: "64",
+                tags: [
+                    "verb",
+                    "total",
+                    "inflection",
+                    "iterative",
+                    "repetition"
+                ]
+            },
+            {
+                form: "hoa~hoa",
+                gloss: "<span>red</span>~throw",
+                translation: "to throw various things",
+                control: {
+                    form: "hoa",
+                    gloss: "throw",
+                    translation: "to throw",
+                },
+                page: "64",
+                tags: [
+                    "verb",
+                    "total",
+                    "inflection",
+                    "agreement"
+                ]
+            },
+            {
+                form: "riva~riva",
+                gloss: "<span>red</span>~good",
+                translation: "good",
+                control: {
+                    form: "riva",
+                    gloss: "good",
+                    translation: "good",
+                },
+                page: "64",
+                tags: [
+                    "adjective",
+                    "total",
+                    "vacuous"
+                ]
+            },
+            {
+                form: "toke~tokerau",
+                gloss: "<span>red</span>~wind",
+                translation: "windy",
+                control: {
+                    form: "tokerau",
+                    gloss: "wind",
+                    translation: "wind",
+                },
+                page: "64",
+                tags: [
+                    "noun",
+                    "adjectivizer",
+                    "derivation",
+                    "partial",
+                    "initial",
+                    "bisyllabic"
+                ]
+            },
+            {
+                form: "He uꞌi~uꞌi ia te ꞌāriŋaa to~toru",
+                gloss: "<span>ntr</span> <span>red</span>~look then <span>art</span> face <span>prop</span> <span>red</span>~three",
+                translation: "The three looked at each other.",
+                control: null,
+                page: "70",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "distributive",
+                    "total",
+                    "reciprocal"
+                ]
+            },
+            {
+                form: "poko~poko",
+                gloss: "<span>red</span>~hollow",
+                translation: "hollow place, basin",
+                control: {
+                    form: "poko",
+                    gloss: "hollow",
+                    translation: "hollow",
+                },
+                page: "71",
+                tags: [
+                    "adjective",
+                    "nominalizer",
+                    "derivation",
+                    "total",
+                ]
+            },
+            {
+                form: "toke~toke",
+                gloss: "<span>red</span>~steal",
+                translation: "to steal frequently, thief",
+                control: {
+                    form: "toke",
+                    gloss: "steal",
+                    translation: "to steal",
+                },
+                page: "71",
+                tags: [
+                    "verb",
+                    "nominalizer",
+                    "derivation",
+                    "total",
+                ]
+            },
+            {
+                form: "'ua~'ua",
+                gloss: "<span>red</span>~rain",
+                translation: "to drizzle",
+                control: {
+                    form: "'ua",
+                    gloss: "rain",
+                    translation: "to rain",
+                },
+                page: "72",
+                tags: [
+                    "verb",
+                    "derivation",
+                    "weakening",
+                    "total"
+                ]
+            },
+            {
+                form: "a to~toru",
+                gloss: "<span>art</span> <span>red</span>~three",
+                translation: "the three",
+                control: null,
+                page: "157",
+                tags: [
+                    "inflection",
+                    "number",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
                 ]
             },
         ]
