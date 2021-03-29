@@ -539,7 +539,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "monosyllabic",
                     "initial",
-                    "verbalization"
+                    "verbalizer"
                 ]
             },
             {
@@ -837,14 +837,145 @@ export const OceanicLanguages = [
         source: "Beaumont, 1979",
         family: "Western Oceanic",
         region: "Papua New Guinea",
-        reduplication: []
+        reduplication: [
+            {
+                form: "sa~sapul-ai",
+                gloss: "",
+                translation: "payment",
+                control: {
+                    form: "sapul",
+                    gloss: "",
+                    translation: "to buy",
+                },
+                page: "90",
+                tags: [
+                    "verb",
+                    "derivation",
+                    "nominalizer",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "affixation",
+                ]
+            },
+            {
+                form: "gi~giak",
+                gloss: "",
+                translation: "messenger",
+                control: {
+                    form: "giak",
+                    gloss: "",
+                    translation: "send",
+                },
+                page: "90",
+                tags: [
+                    "verb",
+                    "nominalizer",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "derivation",
+                ]
+            },
+            {
+                form: "pas~pasal-an",
+                gloss: "",
+                translation: "journey",
+                control: {
+                    form: "pasal",
+                    gloss: "",
+                    translation: "go on foot",
+                },
+                page: "90",
+                tags: [
+                    "verb",
+                    "nominalizer",
+                    "derivation",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "affixation"
+                ]
+            },
+            {
+                form: "no~nol",
+                gloss: "",
+                translation: "think (intransitive)",
+                control: {
+                    form: "nol-i",
+                    gloss: "",
+                    translation: "think (transitive)",
+                },
+                page: "93",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "derivation",
+                    "valency change",
+                    "intransitive",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "rik ais~aisok",
+                gloss: "",
+                translation: "they work and work",
+                control: null,
+                page: "93",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "iterative",
+                ]
+            },
+            {
+                form: "lap~lavu",
+                gloss: "",
+                translation: "very big",
+                control: {
+                    form: "lavu",
+                    gloss: "",
+                    translation: "big",
+                },
+                page: "94",
+                tags: [
+                    "adjective",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "reduplicant alteration",
+                    "inflection",
+                    "intensification"
+                ]
+            },
+        ]
     },
     {
         name: "Tuvaluan",
         source: "Besnier, 2000",
         family: "Central-Eastern Oceanic",
         region: "Tuvalu",
-        reduplication: []
+        reduplication: [
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+        ]
     },
     {
         name: "Mussau-Emira",
