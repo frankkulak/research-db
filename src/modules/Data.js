@@ -1031,7 +1031,212 @@ export const OceanicLanguages = [
         source: "van den Berg & Bachet, 2006",
         family: "Western Oceanic",
         region: "Papua New Guinea",
-        reduplication: []
+        reduplication: [
+            {
+                form: "ruma-ruma",
+                gloss: "",
+                translation: "houses",
+                control: {
+                    form: "ruma",
+                    gloss: "",
+                    translation: "house",
+                },
+                page: "32",
+                tags: [
+                    "noun",
+                    "total",
+                    "inflection",
+                    "plural"
+                ]
+            },
+            {
+                form: "kapiru-piru",
+                gloss: "",
+                translation: "children",
+                control: {
+                    form: "kapiru",
+                    gloss: "",
+                    translation: "child",
+                },
+                page: "32",
+                tags: [
+                    "noun",
+                    "partial",
+                    "final",
+                    "bisyllabic",
+                    "inflection",
+                    "plural"
+                ]
+            },
+            {
+                form: "po-pole",
+                gloss: "",
+                translation: "speaking",
+                control: {
+                    form: "pole",
+                    gloss: "",
+                    translation: "speak",
+                },
+                page: "18",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "progressive",
+                    "inflection",
+                ]
+            },
+            {
+                form: "ta<vi>vine",
+                gloss: "",
+                translation: "women",
+                control: {
+                    form: "tavine",
+                    gloss: "",
+                    translation: "woman",
+                },
+                page: "32",
+                tags: [
+                    "noun",
+                    "partial",
+                    "medial",
+                    "monosyllabic",
+                    "inflection",
+                    "plural"
+                ]
+            },
+            {
+                form: "ha-habi-habi",
+                gloss: "",
+                translation: "singing",
+                control: {
+                    form: "habi",
+                    gloss: "",
+                    translation: "sing",
+                },
+                page: "18",
+                tags: [
+                    "verb",
+                    "partial",
+                    "total",
+                    "initial",
+                    "monosyllabic",
+                    "progressive",
+                    "inflection",
+                    "circumfix"
+                ]
+            },
+            {
+                form: "na lingabo katiu~katiu",
+                gloss: "<span>loc</span> moon one~<span>red</span>",
+                translation: "each month",
+                control: {
+                    form: "na kalua katiu",
+                    gloss: "<span>art</span> shark one",
+                    translation: "a shark",
+                },
+                page: "43",
+                tags: [
+                    "distributive",
+                    "derivation",
+                    "number",
+                    "total"
+                ]
+            },
+            {
+                form: "kemi-kemi",
+                gloss: "",
+                translation: "very good",
+                control: {
+                    form: "kemi",
+                    gloss: "",
+                    translation: "good",
+                },
+                page: "49",
+                tags: [
+                    "adjective",
+                    "inflection",
+                    "intensification",
+                    "total"
+                ]
+            },
+            {
+                form: "vilage-lage",
+                gloss: "",
+                translation: "slowly",
+                control: {
+                    form: "vilage",
+                    gloss: "",
+                    translation: "slow",
+                },
+                page: "49",
+                tags: [
+                    "adverbalizer",
+                    "adjective",
+                    "derivation",
+                    "partial",
+                    "final",
+                    "bisyllabic"
+                ]
+            },
+            {
+                form: "hani~hani",
+                gloss: "",
+                translation: "eat (intransitive)",
+                control: {
+                    form: "hani-a",
+                    gloss: "",
+                    translation: "eat (transitive)",
+                },
+                page: "76",
+                tags: [
+                    "total",
+                    "verb",
+                    "inflection",
+                    "valency change",
+                    "intransitivizer",
+                ]
+            },
+            {
+                form: "ge-gere",
+                gloss: "",
+                translation: "play (continuously)",
+                control: {
+                    form: "gere",
+                    gloss: "",
+                    translation: "play",
+                },
+                page: "86",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "continuous"
+                ]
+            },
+            {
+                form: "pa-pango",
+                gloss: "",
+                translation: "hunt (habitually)",
+                control: {
+                    form: "pango",
+                    gloss: "",
+                    translation: "hunt",
+                },
+                page: "86",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "habitual"
+                ]
+            },
+        ]
     },
     {
         name: "Māori",
