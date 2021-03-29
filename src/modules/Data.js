@@ -698,7 +698,139 @@ export const OceanicLanguages = [
         source: "Elbert & Pukui, 1979",
         family: "Central-Eastern Oceanic",
         region: "Hawaii",
-        reduplication: []
+        reduplication: [
+            {
+                form: "hoe-hoe",
+                gloss: "N/A",
+                translation: "to paddle continuously; for many persons to paddle",
+                control: {
+                    form: "hoe",
+                    gloss: "paddle",
+                    translation: "to paddle",
+                },
+                page: "66",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "total",
+                    "continuous",
+                    "agreement",
+                ]
+            },
+            {
+                form: "ma-make",
+                gloss: "N/A",
+                translation: "deaths everywhere, many deaths",
+                control: {
+                    form: "make",
+                    gloss: "N/A",
+                    translation: "death; to die",
+                },
+                page: "66",
+                tags: [
+                    "noun",
+                    "inflection",
+                    "derivation",
+                    "plural",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                ]
+            },
+            {
+                form: "nina-ninau",
+                gloss: "N/A",
+                translation: "to question repeatedly; for many persons to be asking questions",
+                control: {
+                    form: "nīnau",
+                    gloss: "N/A",
+                    translation: "to question",
+                },
+                page: "66",
+                tags: [
+                    "verb",
+                    "agreement",
+                    "partial",
+                    "initial",
+                    "bisyllabic",
+                    "inflection",
+                    "repetition",
+                    "iterative",
+                ]
+            },
+            {
+                form: "niho-niho",
+                gloss: "N/A",
+                translation: "toothed, notched, serrated",
+                control: {
+                    form: "niho",
+                    gloss: "N/A",
+                    translation: "tooth",
+                },
+                page: "66",
+                tags: [
+                    "noun",
+                    "derivation",
+                    "total",
+                    "adjectivizer",
+                ]
+            },
+            {
+                form: "'ōpio-pio",
+                gloss: "N/A",
+                translation: "young",
+                control: {
+                    form: "'ōpio",
+                    gloss: "N/A",
+                    translation: "young",
+                },
+                page: "67",
+                tags: [
+                    "vacuous",
+                    "adjective",
+                    "all but first",
+                    "partial",
+                    "bisyllabic",
+                    "final"
+                ]
+            },
+            {
+                form: "mana-mana",
+                gloss: "N/A",
+                translation: "tiny branch, finger, toe",
+                control: {
+                    form: "mana",
+                    gloss: "N/A",
+                    translation: "branch",
+                },
+                page: "67",
+                tags: [
+                    "noun",
+                    "derivation",
+                    "diminutive",
+                    "weakening",
+                    "total"
+                ]
+            },
+            {
+                form: "ku-kuli",
+                gloss: "N/A",
+                translation: "to kneel",
+                control: {
+                    form: "kuli",
+                    gloss: "N/A",
+                    translation: "knee",
+                },
+                page: "67",
+                tags: [
+                    "noun",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "verbalizer"
+                ]
+            },
+        ]
     },
     {
         name: "Tigak",
