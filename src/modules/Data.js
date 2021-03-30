@@ -16,6 +16,7 @@ export const OceanicLanguages = [
                     "partial",
                     "monosyllabic",
                     "progressive",
+                    "aspect",
                     "verb",
                     "inflection",
                 ]
@@ -29,8 +30,9 @@ export const OceanicLanguages = [
                 tags: [
                     "initial",
                     "partial",
-                    "bisyllabic",
+                    "disyllabic",
                     "progressive",
+                    "aspect",
                     "verb",
                     "inflection"
                 ]
@@ -48,7 +50,7 @@ export const OceanicLanguages = [
                 tags: [
                     "total",
                     "initial",
-                    "nominalizer",
+                    "to noun",
                     "verb",
                     "derivation",
                     "affixation"
@@ -67,7 +69,7 @@ export const OceanicLanguages = [
                 tags: [
                     "total",
                     "initial",
-                    "nominalizer",
+                    "to noun",
                     "verb",
                     "derivation",
                     "affixation"
@@ -87,10 +89,10 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "nominalizer",
+                    "to noun",
                     "verb",
                     "derivation",
-                    "affixation"
+                    "affixation",
                 ]
             },
             {
@@ -105,7 +107,7 @@ export const OceanicLanguages = [
                 page: "42",
                 tags: [
                     "total",
-                    "nominalizer",
+                    "to noun",
                     "noun",
                     "derivation",
                     "affixation"
@@ -124,8 +126,8 @@ export const OceanicLanguages = [
                 tags: [
                     "partial",
                     "initial",
-                    "bisyllabic",
-                    "nominalizer",
+                    "disyllabic",
+                    "to noun",
                     "noun",
                     "derivation",
                     "affixation"
@@ -145,7 +147,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "nominalizer",
+                    "to noun",
                     "noun",
                     "derivation",
                 ]
@@ -162,7 +164,7 @@ export const OceanicLanguages = [
                 page: "45",
                 tags: [
                     "total",
-                    "nominalizer",
+                    "to noun",
                     "noun",
                     "derivation",
                 ]
@@ -179,7 +181,7 @@ export const OceanicLanguages = [
                 page: "45",
                 tags: [
                     "total",
-                    "nominalizer",
+                    "to noun",
                     "verb",
                     "derivation",
                 ]
@@ -193,9 +195,7 @@ export const OceanicLanguages = [
                 tags: [
                     "total",
                     "intensifier",
-                    "emphasis",
                     "verb",
-                    "inflection",
                 ]
             },
             {
@@ -213,7 +213,7 @@ export const OceanicLanguages = [
                     "elision",
                     "verb",
                     "adjective",
-                    "nominalizer",
+                    "to noun",
                     "initial",
                     "monosyllabic",
                     "derivation"
@@ -234,6 +234,7 @@ export const OceanicLanguages = [
                     "elision",
                     "verb",
                     "progressive",
+                    "aspect",
                     "inflection",
                     "initial",
                     "monosyllabic"
@@ -254,6 +255,7 @@ export const OceanicLanguages = [
                     "elision",
                     "verb",
                     "progressive",
+                    "aspect",
                     "inflection",
                     "initial",
                     "monosyllabic"
@@ -274,11 +276,11 @@ export const OceanicLanguages = [
                     "elision",
                     "verb",
                     "progressive",
+                    "aspect",
                     "inflection",
                     "initial",
                     "monosyllabic",
-                    "stem alteration",
-                    "prenasalization"
+                    "stem change",
                 ]
             },
             {
@@ -295,6 +297,7 @@ export const OceanicLanguages = [
                     "total",
                     "verb",
                     "progressive",
+                    "aspect",
                     "inflection",
                     "initial",
                 ]
@@ -328,7 +331,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "inflection",
                     "noun",
-                    "verbalizer",
+                    "to verb",
                     "initial",
                 ]
             },
@@ -364,6 +367,7 @@ export const OceanicLanguages = [
                     "verb",
                     "continuous",
                     "progressive",
+                    "aspect",
                     "initial"
                 ]
             },
@@ -379,6 +383,7 @@ export const OceanicLanguages = [
                     "inflection",
                     "verb",
                     "habitual",
+                    "aspect",
                     "initial"
                 ]
             },
@@ -701,11 +706,11 @@ export const OceanicLanguages = [
         reduplication: [
             {
                 form: "hoe-hoe",
-                gloss: "N/A",
+                gloss: "",
                 translation: "to paddle continuously; for many persons to paddle",
                 control: {
                     form: "hoe",
-                    gloss: "paddle",
+                    gloss: "",
                     translation: "to paddle",
                 },
                 page: "66",
@@ -719,11 +724,11 @@ export const OceanicLanguages = [
             },
             {
                 form: "ma-make",
-                gloss: "N/A",
+                gloss: "",
                 translation: "deaths everywhere, many deaths",
                 control: {
                     form: "make",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "death; to die",
                 },
                 page: "66",
@@ -739,11 +744,11 @@ export const OceanicLanguages = [
             },
             {
                 form: "nina-ninau",
-                gloss: "N/A",
+                gloss: "",
                 translation: "to question repeatedly; for many persons to be asking questions",
                 control: {
                     form: "nīnau",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "to question",
                 },
                 page: "66",
@@ -760,11 +765,11 @@ export const OceanicLanguages = [
             },
             {
                 form: "niho-niho",
-                gloss: "N/A",
+                gloss: "",
                 translation: "toothed, notched, serrated",
                 control: {
                     form: "niho",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "tooth",
                 },
                 page: "66",
@@ -777,11 +782,11 @@ export const OceanicLanguages = [
             },
             {
                 form: "'ōpio-pio",
-                gloss: "N/A",
+                gloss: "",
                 translation: "young",
                 control: {
                     form: "'ōpio",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "young",
                 },
                 page: "67",
@@ -796,11 +801,11 @@ export const OceanicLanguages = [
             },
             {
                 form: "mana-mana",
-                gloss: "N/A",
+                gloss: "",
                 translation: "tiny branch, finger, toe",
                 control: {
                     form: "mana",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "branch",
                 },
                 page: "67",
@@ -814,11 +819,11 @@ export const OceanicLanguages = [
             },
             {
                 form: "ku-kuli",
-                gloss: "N/A",
+                gloss: "",
                 translation: "to kneel",
                 control: {
                     form: "kuli",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "knee",
                 },
                 page: "67",
@@ -960,63 +965,28 @@ export const OceanicLanguages = [
         source: "Besnier, 2000",
         family: "Central-Eastern Oceanic",
         region: "Tuvalu",
+        reduplication: []
+    },
+    {
+        name: "Mussau-Emira",
+        source: "Brownie & Brownie, 2007",
+        family: "St. Matthias",
+        region: "Papua New Guinea",
+        reduplication: []
+    },
+    {
+        name: "Ughele",
+        source: "Frosted, 2012",
+        family: "Western Oceanic",
+        region: "Solomon Islands",
+        reduplication: []
+    },
+    {
+        name: "Wuvulu",
+        source: "Hafford, 2014",
+        family: "Admiralty",
+        region: "Papua New Guinea",
         reduplication: [
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
             {
                 form: "",
                 gloss: "",
@@ -1062,32 +1032,197 @@ export const OceanicLanguages = [
         ]
     },
     {
-        name: "Mussau-Emira",
-        source: "Brownie & Brownie, 2007",
-        family: "St. Matthias",
-        region: "Papua New Guinea",
-        reduplication: []
-    },
-    {
-        name: "Ughele",
-        source: "Frosted, 2012",
-        family: "Western Oceanic",
-        region: "Solomon Islands",
-        reduplication: []
-    },
-    {
-        name: "Wuvulu",
-        source: "Hafford, 2014",
-        family: "Admiralty",
-        region: "Papua New Guinea",
-        reduplication: []
-    },
-    {
         name: "Loniu",
         source: "Hamel, 1994",
         family: "Admiralty",
         region: "Papua New Guinea",
-        reduplication: []
+        reduplication: [
+            {
+                form: "ɛpi susuwah",
+                gloss: "sago fried",
+                translation: "fried sago",
+                control: {
+                    form: "suwah",
+                    gloss: "",
+                    translation: "to fry",
+                },
+                page: "69",
+                tags: [
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "verb",
+                    "derivation",
+                    "to adjective",
+                ]
+            },
+            {
+                form: "nɔhɔnɔh",
+                gloss: "",
+                translation: "to fear",
+                control: {
+                    form: "nɔh",
+                    gloss: "",
+                    translation: "fear (N)",
+                },
+                page: "81",
+                tags: [
+                    "total",
+                    "verb",
+                    "derivation",
+                    "to noun",
+                    "epenthesis"
+                ]
+            },
+            {
+                form: "sah",
+                gloss: "",
+                translation: "carve (transitive)",
+                control: {
+                    form: "sɛhisah",
+                    gloss: "",
+                    translation: "carve (intransitive)",
+                },
+                page: "81",
+                tags: [
+                    "verb",
+                    "intransitive",
+                    "inflection",
+                    "valency change",
+                    "reduplicant change",
+                    "total",
+                    "epenthesis"
+                ]
+            },
+            {
+                form: "mamahun",
+                gloss: "",
+                translation: "very new, infant",
+                control: {
+                    form: "mahun",
+                    gloss: "",
+                    translation: "new",
+                },
+                page: "82",
+                tags: [
+                    "adjective",
+                    "derivation",
+                    "to noun",
+                    "inflection",
+                    "intensifier",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "tutuwah",
+                gloss: "",
+                translation: "chew (DUR)",
+                control: {
+                    form: "tuwah",
+                    gloss: "",
+                    translation: "chew",
+                },
+                page: "82",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "durative",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "ŋɛsuŋɛsun",
+                gloss: "",
+                translation: "smoky",
+                control: {
+                    form: "ŋɛsu",
+                    gloss: "",
+                    translation: "smoke",
+                },
+                page: "82",
+                tags: [
+                    "noun",
+                    "derivation",
+                    "to adjective",
+                    "total",
+                    "affixation"
+                ]
+            },
+            {
+                form: "piliŋ",
+                gloss: "",
+                translation: "waiting",
+                control: {
+                    form: "pililiŋ",
+                    gloss: "",
+                    translation: "wait",
+                },
+                page: "82",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "progressive",
+                    "partial",
+                    "medial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "pɔtɔpɔtɔn",
+                gloss: "",
+                translation: "lots of thorns",
+                control: {
+                    form: "pɔtɔ",
+                    gloss: "",
+                    translation: "thorn",
+                },
+                page: "82",
+                tags: [
+                    "noun",
+                    "inflection",
+                    "plural",
+                    "total",
+                    "affixation"
+                ]
+            },
+            {
+                form: "mʷimʷiˀin",
+                gloss: "",
+                translation: "last-born child",
+                control: {
+                    form: "mʷiˀin",
+                    gloss: "",
+                    translation: "behind",
+                },
+                page: "82",
+                tags: [
+                    "noun",
+                    "derivation",
+                    "to noun",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "lɛy iy pʷahačan laˀɛlɛwɛn laˀɛlɛwɛn",
+                gloss: "Lae <span>3sg</span> road far far",
+                translation: "Lae is very far away",
+                control: null,
+                page: "95",
+                tags: [
+                    "adjective",
+                    "intensifier",
+                    "total"
+                ]
+            },
+        ]
     },
     {
         name: "Mandara",
