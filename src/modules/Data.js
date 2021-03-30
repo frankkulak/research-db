@@ -1024,7 +1024,185 @@ export const OceanicLanguages = [
         source: "Næss & Hovdhaugen, 2011",
         family: "Central-Eastern Oceanic",
         region: "Solomon Islands",
-        reduplication: []
+        reduplication: [
+            {
+                form: "halehale",
+                gloss: "",
+                translation: "houses",
+                control: {
+                    form: "hale",
+                    gloss: "",
+                    translation: "house",
+                },
+                page: "92",
+                tags: [
+                    "noun",
+                    "inflection",
+                    "plural",
+                    "total",
+                ]
+            },
+            {
+                form: "hahai",
+                gloss: "",
+                translation: "sides, halves",
+                control: {
+                    form: "hai",
+                    gloss: "",
+                    translation: "side, half",
+                },
+                page: "92",
+                tags: [
+                    "noun",
+                    "inflection",
+                    "plural",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                ]
+            },
+            {
+                form: "lakalaka",
+                gloss: "",
+                translation: "be happy",
+                control: null,
+                page: "92",
+                tags: [
+                    "verb",
+                    "total",
+                    "lexical",
+                ]
+            },
+            {
+                form: "lokaloka",
+                gloss: "",
+                translation: "swamp",
+                control: null,
+                page: "92",
+                tags: [
+                    "noun",
+                    "total",
+                    "lexical",
+                ]
+            },
+            {
+                form: "kakhai",
+                gloss: "",
+                translation: "eat (plural)",
+                control: {
+                    form: "kai",
+                    gloss: "",
+                    translation: "eat",
+                },
+                page: "93",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "agreement",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "stem change",
+                ]
+            },
+            {
+                form: "Ko-i tu~tuhi-a a lakau",
+                gloss: "<span>incp</span>-<span>3sg</span> <span>red</span>~cut-<span>tr</span> <span>coll</span> tree",
+                translation: "She cut down the trees",
+                control: {
+                    form: "Ko-i tuhi-a te lakau",
+                    gloss: "<span>incp</span>-<span>3sg</span> cut-<span>tr</span> <span>sg.sp</span> tree",
+                    translation: "She cut down a tree",
+                },
+                page: "93",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "affixation",
+                    "agreement",
+                    "inflection",
+                ]
+            },
+            {
+                form: "Te tangara no fana~fana ika i haupē.",
+                gloss: "<span>sg.sp</span> man <span>ipfv</span> <span>red</span>~shoot fish <span>lda</span> lagoon",
+                translation: "The man was shooting fish in the lagoon",
+                control: null,
+                page: "94",
+                tags: [
+                    "verb",
+                    "total",
+                    "progressive",
+                    "aspect",
+                    "inflection",
+                ]
+            },
+            {
+                form: "Tai tai ko noho~noho  na ko avanga",
+                gloss: "one man <span>incp</span> <span>red</span>~live <span>dem.2</span> <span>incp</span> marry",
+                translation: "There was a man who lived for a while and got married",
+                control: null,
+                page: "95",
+                tags: [
+                    "verb",
+                    "total",
+                    "habitual",
+                    "aspect",
+                    "inflection",
+                ]
+            },
+            {
+                form: "T-u-ku vae ko ehu~ehu",
+                gloss: "<span>sg.sp</span>-<span>poss</span>-<span>1sg.poss</span> leg <span>incp</span> <span>red</span>~dirty",
+                translation: "My foot is very dirty",
+                control: null,
+                page: "96",
+                tags: [
+                    "adjective",
+                    "total",
+                    "emphasis",
+                    "intensifier",
+                ]
+            },
+            {
+                form: "hatu~hatu-a",
+                gloss: "",
+                translation: "to be stony",
+                control: {
+                    form: "hatu",
+                    gloss: "",
+                    translation: "stone",
+                },
+                page: "149",
+                tags: [
+                    "noun",
+                    "verbalizer",
+                    "total",
+                    "derivation",
+                    "affixation"
+                ]
+            },
+            {
+                form: "onge~onge-a",
+                gloss: "",
+                translation: "to be poor",
+                control: {
+                    form: "onge",
+                    gloss: "",
+                    translation: "hunger",
+                },
+                page: "149",
+                tags: [
+                    "noun",
+                    "verbalizer",
+                    "total",
+                    "derivation",
+                    "affixation"
+                ]
+            },
+        ]
     },
     {
         name: "Vitu",
