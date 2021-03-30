@@ -1094,7 +1094,124 @@ export const OceanicLanguages = [
         source: "Hong & Hong, 2003",
         family: "Western Oceanic",
         region: "Papua New Guinea",
-        reduplication: []
+        reduplication: [
+            {
+                form: "mi pa~palu",
+                gloss: "<span>art.c</span> <span>red</span>~play",
+                translation: "toy",
+                control: {
+                    form: "palu",
+                    gloss: "play",
+                    translation: "to play",
+                },
+                page: "14",
+                tags: [
+                    "verb",
+                    "to noun",
+                    "derivation",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "va~vasengei",
+                gloss: "<span>red</span>~show",
+                translation: "to teach",
+                control: {
+                    form: "vasengei",
+                    gloss: "show",
+                    translation: "to show",
+                },
+                page: "14",
+                tags: [
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "verb",
+                    "to verb",
+                    "derivation"
+                ]
+            },
+            {
+                form: "mi ngeis~ngeis",
+                gloss: "<span>art.c</span> <span>red</span>~strong",
+                translation: "power",
+                control: {
+                    form: "ngeis",
+                    gloss: "strong",
+                    translation: "strong",
+                },
+                page: "14",
+                tags: [
+                    "adjective",
+                    "to verb",
+                    "derivation",
+                    "total"
+                ]
+            },
+            {
+                form: "mi muo~muo",
+                gloss: "<span>art.c</span> <span>red</span>~front",
+                translation: "leader",
+                control: {
+                    form: "i muo",
+                    gloss: "<span>art.l</span> front",
+                    translation: "at front",
+                },
+                page: "14",
+                tags: [
+                    "noun",
+                    "to noun",
+                    "derivation",
+                    "total"
+                ]
+            },
+            {
+                form: "Gi nga ve-ve-eng i kinorto-gie",
+                gloss: "<span>3pl.sr</span> <span>past</span> <span>rdp</span>-<span>rcpr</span>-talk <span>art.l</span> middle-<span>3pl.ps</span>",
+                translation: "They talk to each other among themselves",
+                control: null,
+                page: "40",
+                tags: [
+                    "reciprocal",
+                    "inflection",
+                    "total",
+                    "verb"
+                ]
+            },
+            {
+                form: "mi vevin tsuo-tsuor melen",
+                gloss: "<span>art</span> woman <span>red</span>-plant water.melon",
+                translation: "a woman who loves(specialized) in planting(growing) water melons",
+                control: null,
+                page: "44",
+                tags: [
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "verb",
+                    "derivation",
+                    "specialization"
+                ]
+            },
+            {
+                form: "A te vor kele-kelei",
+                gloss: "<span>3s.sr</span> <span>cmpl</span> <span>prog</span> <span>red</span>-good",
+                translation: "He is getting better",
+                control: null,
+                page: "59",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "bisyllabic",
+                    "aspect",
+                    "inflection",
+                    "progressive"
+                ]
+            },
+        ]
     },
     {
         name: "Yapese",
