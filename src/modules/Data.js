@@ -965,26 +965,69 @@ export const OceanicLanguages = [
         source: "Besnier, 2000",
         family: "Central-Eastern Oceanic",
         region: "Tuvalu",
-        reduplication: []
+        reduplication: [
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+        ]
     },
     {
         name: "Mussau-Emira",
         source: "Brownie & Brownie, 2007",
         family: "St. Matthias",
-        region: "Papua New Guinea",
-        reduplication: []
-    },
-    {
-        name: "Ughele",
-        source: "Frosted, 2012",
-        family: "Western Oceanic",
-        region: "Solomon Islands",
-        reduplication: []
-    },
-    {
-        name: "Wuvulu",
-        source: "Hafford, 2014",
-        family: "Admiralty",
         region: "Papua New Guinea",
         reduplication: [
             {
@@ -1027,6 +1070,141 @@ export const OceanicLanguages = [
                 page: "",
                 tags: [
                     "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+        ]
+    },
+    {
+        name: "Ughele",
+        source: "Frosted, 2012",
+        family: "Western Oceanic",
+        region: "Solomon Islands",
+        reduplication: [
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+        ]
+    },
+    {
+        name: "Wuvulu",
+        source: "Hafford, 2014",
+        family: "Admiralty",
+        region: "Papua New Guinea",
+        reduplication: [
+            {
+                form: "ʔi-na-fane-nara~nara",
+                gloss: "<span>3sg</span>-<span>real</span>-<span>hab</span>-<span>red</span>-think",
+                translation: "think (habitual)",
+                control: null,
+                page: "95",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "habitual",
+                    "total",
+                    "affixation"
+                ]
+            },
+            {
+                form: "fi-po-we-ware-ware, Bau, \"Oo! ...\"",
+                gloss: "<span>sim</span>-<span>ints</span>-<span>ev</span>-<span>red</span>-talk Bau <span>ij</span>",
+                translation: "Bau was finally in the process of talking, [saying] \"Oh! ...\"",
+                control: null,
+                page: "98",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "progressive",
+                    "total",
+                ]
+            },
+            {
+                form: "roroni",
+                gloss: "",
+                translation: "hurrying",
+                control: {
+                    form: "roni",
+                    gloss: "",
+                    translation: "hurry",
+                },
+                page: "100",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "progressive",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
                 ]
             },
         ]
