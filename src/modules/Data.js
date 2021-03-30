@@ -975,6 +975,90 @@ export const OceanicLanguages = [
                     "",
                 ]
             },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
+            {
+                form: "",
+                gloss: "",
+                translation: "",
+                control: {
+                    form: "",
+                    gloss: "",
+                    translation: "",
+                },
+                page: "",
+                tags: [
+                    "",
+                ]
+            },
         ]
     },
     {
@@ -1017,7 +1101,151 @@ export const OceanicLanguages = [
         source: "Jenson, 1977",
         family: "Yapese",
         region: "Micronesia",
-        reduplication: []
+        reduplication: [
+            {
+                form: "roowroow",
+                gloss: "",
+                translation: "red",
+                control: null,
+                page: "108",
+                tags: [
+                    "color",
+                    "lexical",
+                    "total"
+                ]
+            },
+            {
+                form: "sa-ba~baequud",
+                gloss: "",
+                translation: "somewhat light",
+                control: {
+                    form: "baequud",
+                    gloss: "",
+                    translation: "light",
+                },
+                page: "117",
+                tags: [
+                    "adjective",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "affixation",
+                    "diminutive",
+                ]
+            },
+            {
+                form: "sa~ba-biqeg",
+                gloss: "",
+                translation: "to read a little",
+                control: {
+                    form: "biqeg",
+                    gloss: "",
+                    translation: "to read",
+                },
+                page: "117",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "affixation",
+                    "diminutive",
+                    "reduplicant change",
+                ]
+            },
+            {
+                form: "pel~peeleeg",
+                gloss: "",
+                translation: "to hide repeatedly",
+                control: {
+                    form: "peeleeg",
+                    gloss: "",
+                    translation: "to hide",
+                },
+                page: "118",
+                tags: [
+                    "verb",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "aspect",
+                    "iterative",
+                    "inflection"
+                ]
+            },
+            {
+                form: "soo~soowaath",
+                gloss: "",
+                translation: "slow",
+                control: {
+                    form: "soowaath",
+                    gloss: "",
+                    translation: "slow",
+                },
+                page: "118",
+                tags: [
+                    "adjective",
+                    "vacuous"
+                ]
+            },
+            {
+                form: "ma-qthuk~thuk",
+                gloss: "",
+                translation: "mixed up",
+                control: {
+                    form: "qathuk",
+                    gloss: "",
+                    translation: "to mix",
+                },
+                page: "118",
+                tags: [
+                    "verb",
+                    "adjectiver",
+                    "partial",
+                    "final",
+                    "stem change",
+                    "monosyllabic",
+                    "derivation"
+                ]
+            },
+            {
+                form: "tho~thow",
+                gloss: "",
+                translation: "swollen",
+                control: {
+                    form: "thow",
+                    gloss: "",
+                    translation: "to swell",
+                },
+                page: "119",
+                tags: [
+                    "verb",
+                    "adjectivizer",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "derivation"
+                ]
+            },
+            {
+                form: "Kea roow~roow qowchean",
+                gloss: "",
+                translation: "His face became red (focus on the process of becoming red)",
+                control: {
+                    form: "Kea roow qowchean",
+                    gloss: "",
+                    translation: "His face became red (focus on end result)",
+                },
+                page: "120",
+                tags: [
+                    "verb",
+                    "total",
+                    "color",
+                    "emphasis",
+                    "inflection"
+                ]
+            },
+        ]
     },
     {
         name: "Vaeakau-Taumako",
