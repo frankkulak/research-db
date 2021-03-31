@@ -960,69 +960,13 @@ export const OceanicLanguages = [
             },
         ]
     },
+    // prune Tuvaluan
     {
         name: "Tuvaluan",
         source: "Besnier, 2000",
         family: "Central-Eastern Oceanic",
         region: "Tuvalu",
-        reduplication: [
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-            {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
-                tags: [
-                    "",
-                ]
-            },
-        ]
+        reduplication: []
     },
     {
         name: "Mussau-Emira",
@@ -1090,64 +1034,155 @@ export const OceanicLanguages = [
     },
     {
         name: "Ughele",
-        source: "Frosted, 2012",
+        source: "Frostad, 2012",
         family: "Western Oceanic",
         region: "Solomon Islands",
         reduplication: [
             {
-                form: "",
+                form: "zu~zuda~ini",
                 gloss: "",
-                translation: "",
+                translation: "forest",
                 control: {
-                    form: "",
+                    form: "zuda",
                     gloss: "",
-                    translation: "",
+                    translation: "tree",
                 },
-                page: "",
+                page: "42",
                 tags: [
-                    "",
+                    "noun",
+                    "to noun",
+                    "derivation",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "affixation"
                 ]
             },
             {
-                form: "",
+                form: "do~doŋo",
                 gloss: "",
-                translation: "",
+                translation: "seeing",
                 control: {
-                    form: "",
+                    form: "doŋo",
                     gloss: "",
-                    translation: "",
+                    translation: "see",
                 },
-                page: "",
+                page: "45",
                 tags: [
-                    "",
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "progressive",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
                 ]
             },
             {
-                form: "",
+                form: "ta~tavete",
                 gloss: "",
-                translation: "",
+                translation: "work (N)",
                 control: {
-                    form: "",
+                    form: "tavete",
                     gloss: "",
-                    translation: "",
+                    translation: "do; work (V)",
                 },
-                page: "",
+                page: "45",
                 tags: [
-                    "",
+                    "verb",
+                    "to noun",
+                    "derivation",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
                 ]
             },
             {
-                form: "",
+                form: "ma~maruvu-aini",
                 gloss: "",
-                translation: "",
+                translation: "entrance",
                 control: {
-                    form: "",
+                    form: "maruvu",
                     gloss: "",
-                    translation: "",
+                    translation: "enter",
                 },
-                page: "",
+                page: "46",
                 tags: [
-                    "",
+                    "verb",
+                    "derivation",
+                    "to noun",
+                    "affixation",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "ke~kenu",
+                gloss: "",
+                translation: "be first (emphatic)",
+                control: {
+                    form: "kenu",
+                    gloss: "",
+                    translation: "be first",
+                },
+                page: "93",
+                tags: [
+                    "verb",
+                    "emphasis",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                ]
+            },
+            {
+                form: "ke~kenu",
+                gloss: "",
+                translation: "early",
+                control: {
+                    form: "kenu",
+                    gloss: "",
+                    translation: "be first",
+                },
+                page: "153",
+                tags: [
+                    "verb",
+                    "to adverb",
+                    "derivation",
+                    "temporal",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "ta~taraza",
+                gloss: "",
+                translation: "completely destroy",
+                control: {
+                    form: "taraza",
+                    gloss: "",
+                    translation: "destroy",
+                },
+                page: "164",
+                tags: [
+                    "verb",
+                    "intensifier",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
+                ]
+            },
+            {
+                form: "va-ghesi~ghesi",
+                gloss: "<span>caus</span>-<span>red</span>~be.proud",
+                translation: "be very proud",
+                control: null,
+                page: "164",
+                tags: [
+                    "total",
+                    "intensifier",
+                    "verb"
                 ]
             },
         ]
