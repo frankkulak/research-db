@@ -975,59 +975,135 @@ export const OceanicLanguages = [
         region: "Papua New Guinea",
         reduplication: [
             {
-                form: "",
+                form: "ai-ruu~ruu",
                 gloss: "",
-                translation: "",
+                translation: "end",
                 control: {
-                    form: "",
+                    form: "ruu",
                     gloss: "",
-                    translation: "",
+                    translation: "finish",
                 },
-                page: "",
+                page: "37",
                 tags: [
-                    "",
+                    "verb",
+                    "derivation",
+                    "to noun",
+                    "total",
+                    "affixation"
                 ]
             },
             {
-                form: "",
+                form: "ai-tiu~tiu",
                 gloss: "",
-                translation: "",
+                translation: "beginning",
                 control: {
-                    form: "",
+                    form: "tiu",
                     gloss: "",
-                    translation: "",
+                    translation: "start",
                 },
-                page: "",
+                page: "38",
                 tags: [
-                    "",
+                    "verb",
+                    "derivation",
+                    "to noun",
+                    "total",
+                    "affixation"
                 ]
             },
             {
-                form: "",
-                gloss: "",
-                translation: "",
-                control: {
-                    form: "",
-                    gloss: "",
-                    translation: "",
-                },
-                page: "",
+                form: "Kateva nau kateva tama~tama ghe toka~toka epona tanganue-na",
+                gloss: "one day one <span>red<span>~father <span>past<span> <span>red<span>~sit on home-<span>3sp</span>",
+                translation: "One day a father was sitting in his house",
+                control: null,
+                page: "39",
                 tags: [
-                    "",
+                    "noun",
+                    "inflection",
+                    "indefinite possession",
+                    "total",
+                    "verb",
+                    "aspect",
+                    "progressive",
                 ]
             },
             {
-                form: "",
+                form: "rae~rae-ana",
                 gloss: "",
-                translation: "",
+                translation: "red",
                 control: {
-                    form: "",
+                    form: "rae",
                     gloss: "",
-                    translation: "",
+                    translation: "blood",
                 },
-                page: "",
+                page: "67",
                 tags: [
-                    "",
+                    "color",
+                    "noun",
+                    "to adjective",
+                    "total",
+                    "affixation"
+                ]
+            },
+            {
+                form: "kala~kala-ngina",
+                gloss: "",
+                translation: "near",
+                control: {
+                    form: "kala",
+                    gloss: "",
+                    translation: "approach",
+                },
+                page: "67",
+                tags: [
+                    "verb",
+                    "derivation",
+                    "to adjective",
+                    "total",
+                    "affixation"
+                ]
+            },
+            {
+                form: "Norm e-siki~siki olimo-na ateva",
+                gloss: "Norm <span>3s</span>-<span>red</span>~push canoe-<span>3sp</span> <span>sg.i</span>",
+                translation: "Norm is pushing his canoe",
+                control: null,
+                page: "112",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "progressive",
+                    "continuous",
+                    "total"
+                ]
+            },
+            {
+                form: "Gideon e-toka~toka e-Magean",
+                gloss: "Gideon <span>3s</span>-<span>red</span>~sit <span>loc</span>-Magean",
+                translation: "Gideon lives in Magean",
+                control: null,
+                page: "113",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "aspect",
+                    "habitual",
+                    "total"
+                ]
+            },
+            {
+                form: "Io u-su~suu natu-m",
+                gloss: "<span>2s</span> <span>2s</span>-<span>red</span>~breastfeed child-<span>2sp</span>",
+                translation: "You are breastfeeding your child",
+                control: null,
+                page: "115",
+                tags: [
+                    "verb",
+                    "inflection",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "intransitive"
                 ]
             },
         ]
