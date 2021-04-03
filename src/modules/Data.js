@@ -1531,7 +1531,8 @@ export const OceanicLanguages = [
                     "derivation",
                     "partial",
                     "initial",
-                    "monosyllabic"
+                    "monosyllabic",
+                    "with article"
                 ]
             },
             {
@@ -1550,7 +1551,7 @@ export const OceanicLanguages = [
                     "monosyllabic",
                     "verb",
                     "to verb",
-                    "derivation"
+                    "derivation",
                 ]
             },
             {
@@ -1565,9 +1566,10 @@ export const OceanicLanguages = [
                 page: "14",
                 tags: [
                     "adjective",
-                    "to verb",
+                    "to noun",
                     "derivation",
-                    "total"
+                    "total",
+                    "with article"
                 ]
             },
             {
@@ -1584,7 +1586,8 @@ export const OceanicLanguages = [
                     "noun",
                     "to noun",
                     "derivation",
-                    "total"
+                    "total",
+                    "with article"
                 ]
             },
             {
@@ -1597,7 +1600,8 @@ export const OceanicLanguages = [
                     "reciprocal",
                     "inflection",
                     "total",
-                    "verb"
+                    "verb",
+                    "with affix"
                 ]
             },
             {
@@ -1612,7 +1616,9 @@ export const OceanicLanguages = [
                     "monosyllabic",
                     "verb",
                     "derivation",
-                    "specialization"
+                    "to verb",
+                    "specialization",
+                    "unique"
                 ]
             },
             {
@@ -1622,13 +1628,13 @@ export const OceanicLanguages = [
                 control: null,
                 page: "59",
                 tags: [
-                    "verb",
                     "partial",
                     "initial",
                     "disyllabic",
-                    "aspect",
-                    "inflection",
-                    "progressive"
+                    "verb",
+                    "derivation",
+                    "to verb",
+                    "unique"
                 ]
             },
         ]
@@ -1663,6 +1669,8 @@ export const OceanicLanguages = [
                 page: "117",
                 tags: [
                     "adjective",
+                    "derivation",
+                    "to adjective",
                     "partial",
                     "initial",
                     "monosyllabic",
@@ -1682,6 +1690,8 @@ export const OceanicLanguages = [
                 page: "117",
                 tags: [
                     "verb",
+                    "derivation",
+                    "to verb",
                     "partial",
                     "initial",
                     "monosyllabic",
@@ -1722,7 +1732,10 @@ export const OceanicLanguages = [
                 page: "118",
                 tags: [
                     "adjective",
-                    "no change"
+                    "no change",
+                    "partial",
+                    "initial",
+                    "monosyllabic"
                 ]
             },
             {
@@ -1737,9 +1750,10 @@ export const OceanicLanguages = [
                 page: "118",
                 tags: [
                     "verb",
-                    "adjectiver",
+                    "to adjective",
                     "partial",
                     "final",
+                    "with affix",
                     "stem change",
                     "monosyllabic",
                     "derivation"
@@ -1779,7 +1793,8 @@ export const OceanicLanguages = [
                     "total",
                     "color",
                     "emphasis",
-                    "inflection"
+                    "inflection",
+                    "unique"
                 ]
             },
         ]
