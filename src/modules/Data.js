@@ -859,6 +859,23 @@ export const OceanicLanguages = [
                 ]
             },
             {
+                form: "pulpul",
+                gloss: "",
+                translation: "payment",
+                control: {
+                    form: "pul",
+                    gloss: "",
+                    translation: "to buy",
+                },
+                page: "90",
+                tags: [
+                    "verb",
+                    "derivation",
+                    "to noun",
+                    "total",
+                ]
+            },
+            {
                 form: "gi~giak",
                 gloss: "",
                 translation: "messenger",
