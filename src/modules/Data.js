@@ -53,7 +53,7 @@ export const OceanicLanguages = [
                     "to noun",
                     "verb",
                     "derivation",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -72,7 +72,7 @@ export const OceanicLanguages = [
                     "to noun",
                     "verb",
                     "derivation",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -92,7 +92,7 @@ export const OceanicLanguages = [
                     "to noun",
                     "verb",
                     "derivation",
-                    "affixation",
+                    "with affix",
                 ]
             },
             {
@@ -110,7 +110,7 @@ export const OceanicLanguages = [
                     "to noun",
                     "noun",
                     "derivation",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -130,7 +130,7 @@ export const OceanicLanguages = [
                     "to noun",
                     "noun",
                     "derivation",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -194,23 +194,22 @@ export const OceanicLanguages = [
                 page: "75",
                 tags: [
                     "total",
-                    "intensifier",
+                    "intensity",
                     "verb",
                 ]
             },
             {
                 form: "/bumbuma/",
-                gloss: "N/A",
+                gloss: "",
                 translation: "variety of small blue reef fish",
                 control: {
                     form: "/buma/",
-                    gloss: "blue",
+                    gloss: "",
                     translation: "blue"
                 },
                 page: "26",
                 tags: [
                     "partial",
-                    "elision",
                     "verb",
                     "adjective",
                     "to noun",
@@ -221,17 +220,16 @@ export const OceanicLanguages = [
             },
             {
                 form: "/ɣasɣasa/",
-                gloss: "N/A",
+                gloss: "",
                 translation: "jumping",
                 control: {
                     form: "/ɣasa/",
-                    gloss: "jump",
+                    gloss: "",
                     translation: "jump"
                 },
                 page: "26",
                 tags: [
                     "partial",
-                    "elision",
                     "verb",
                     "progressive",
                     "aspect",
@@ -242,17 +240,16 @@ export const OceanicLanguages = [
             },
             {
                 form: "/hiɣhiɣala/",
-                gloss: "N/A",
+                gloss: "",
                 translation: "gardening",
                 control: {
                     form: "/hiɣala/",
-                    gloss: "garden",
+                    gloss: "",
                     translation: "to garden"
                 },
                 page: "26",
                 tags: [
                     "partial",
-                    "elision",
                     "verb",
                     "progressive",
                     "aspect",
@@ -263,17 +260,16 @@ export const OceanicLanguages = [
             },
             {
                 form: "/kamkaᵐbɔ/",
-                gloss: "N/A",
+                gloss: "",
                 translation: "crying",
                 control: {
                     form: "/kabɔ/",
-                    gloss: "cry",
+                    gloss: "",
                     translation: "cry"
                 },
                 page: "26",
                 tags: [
                     "partial",
-                    "elision",
                     "verb",
                     "progressive",
                     "aspect",
@@ -281,6 +277,7 @@ export const OceanicLanguages = [
                     "initial",
                     "monosyllabic",
                     "stem change",
+                    "reduplicant change"
                 ]
             },
             {
@@ -299,7 +296,6 @@ export const OceanicLanguages = [
                     "progressive",
                     "aspect",
                     "inflection",
-                    "initial",
                 ]
             },
             {
@@ -329,29 +325,27 @@ export const OceanicLanguages = [
                 tags: [
                     "total",
                     "derivation",
-                    "inflection",
                     "noun",
                     "to verb",
                     "initial",
                 ]
             },
             {
-                form: "podepode",
-                gloss: "N/A",
+                form: "pode~pode",
+                gloss: "",
                 translation: "try hard",
                 control: {
                     form: "pode",
-                    gloss: "N/A",
+                    gloss: "",
                     translation: "try"
                 },
                 page: "131",
                 tags: [
                     "total",
                     "verb",
-                    "emphasis",
-                    "intensifier",
-                    "inflection",
-                    "initial",
+                    "to verb",
+                    "intensity",
+                    "derivation",
                 ]
             },
             {
@@ -399,12 +393,9 @@ export const OceanicLanguages = [
                 page: "224",
                 tags: [
                     "total",
-                    "inflection",
-                    "derivation",
-                    "initial",
                     "contrast",
-                    "location",
-                    "noun"
+                    "noun",
+                    "unique"
                 ]
             },
         ]
@@ -426,16 +417,16 @@ export const OceanicLanguages = [
                 },
                 page: "71",
                 tags: [
-                    "lexical",
                     "partial",
-                    "lengthening",
+                    "disyllabic",
                     "final",
-                    "iterative",
+                    "lengthening",
+                    "double",
                     "all but first",
-                    "bisyllabic",
-                    "stem alteration",
                     "verb",
                     "derivation",
+                    "lexical",
+                    "to verb"
                 ]
             },
             {
@@ -451,9 +442,9 @@ export const OceanicLanguages = [
                 tags: [
                     "lexical",
                     "total",
-                    "iterative",
                     "verb",
                     "derivation",
+                    "to verb"
                 ]
             },
             {
@@ -469,8 +460,9 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "total",
-                    "verbalizer",
+                    "to verb",
                     "derivation",
+                    "lexical"
                 ]
             },
             {
@@ -486,8 +478,9 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "total",
-                    "verbalizer",
+                    "to verb",
                     "derivation",
+                    "lexical"
                 ]
             },
             {
@@ -506,7 +499,8 @@ export const OceanicLanguages = [
                     "inflection",
                     "monosyllabic",
                     "initial",
-                    "agreement"
+                    "agreement",
+                    "subject agreement"
                 ]
             },
             {
@@ -525,7 +519,8 @@ export const OceanicLanguages = [
                     "inflection",
                     "monosyllabic",
                     "initial",
-                    "agreement"
+                    "agreement",
+                    "subject agreement"
                 ]
             },
             {
@@ -544,7 +539,8 @@ export const OceanicLanguages = [
                     "derivation",
                     "monosyllabic",
                     "initial",
-                    "verbalizer"
+                    "to verb",
+                    "lexical"
                 ]
             },
             {
@@ -561,8 +557,8 @@ export const OceanicLanguages = [
                     "verb",
                     "total",
                     "inflection",
+                    "aspect",
                     "iterative",
-                    "repetition"
                 ]
             },
             {
@@ -579,7 +575,8 @@ export const OceanicLanguages = [
                     "verb",
                     "total",
                     "inflection",
-                    "agreement"
+                    "agreement",
+                    "object agreement"
                 ]
             },
             {
@@ -595,7 +592,7 @@ export const OceanicLanguages = [
                 tags: [
                     "adjective",
                     "total",
-                    "vacuous"
+                    "no change"
                 ]
             },
             {
@@ -610,11 +607,11 @@ export const OceanicLanguages = [
                 page: "64",
                 tags: [
                     "noun",
-                    "adjectivizer",
+                    "to adjective",
                     "derivation",
                     "partial",
                     "initial",
-                    "bisyllabic"
+                    "disyllabic"
                 ]
             },
             {
@@ -626,9 +623,12 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "inflection",
-                    "distributive",
                     "total",
-                    "reciprocal"
+                    "reciprocal",
+                    "partial",
+                    "initial",
+                    "monosyllabic",
+                    "number"
                 ]
             },
             {
@@ -643,7 +643,7 @@ export const OceanicLanguages = [
                 page: "71",
                 tags: [
                     "adjective",
-                    "nominalizer",
+                    "to noun",
                     "derivation",
                     "total",
                 ]
@@ -660,9 +660,13 @@ export const OceanicLanguages = [
                 page: "71",
                 tags: [
                     "verb",
-                    "nominalizer",
+                    "to noun",
                     "derivation",
                     "total",
+                    "to verb",
+                    "habitual",
+                    "inflection",
+                    "aspect"
                 ]
             },
             {
@@ -678,22 +682,9 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "derivation",
-                    "weakening",
+                    "to verb",
+                    "diminutive",
                     "total"
-                ]
-            },
-            {
-                form: "a to~toru",
-                gloss: "<span>art</span> <span>red</span>~three",
-                translation: "the three",
-                control: null,
-                page: "157",
-                tags: [
-                    "inflection",
-                    "number",
-                    "partial",
-                    "initial",
-                    "monosyllabic"
                 ]
             },
         ]
@@ -757,7 +748,7 @@ export const OceanicLanguages = [
                     "agreement",
                     "partial",
                     "initial",
-                    "bisyllabic",
+                    "disyllabic",
                     "inflection",
                     "repetition",
                     "iterative",
@@ -777,7 +768,7 @@ export const OceanicLanguages = [
                     "noun",
                     "derivation",
                     "total",
-                    "adjectivizer",
+                    "to adjective",
                 ]
             },
             {
@@ -791,11 +782,11 @@ export const OceanicLanguages = [
                 },
                 page: "67",
                 tags: [
-                    "vacuous",
+                    "no change",
                     "adjective",
                     "all but first",
                     "partial",
-                    "bisyllabic",
+                    "disyllabic",
                     "final"
                 ]
             },
@@ -813,7 +804,7 @@ export const OceanicLanguages = [
                     "noun",
                     "derivation",
                     "diminutive",
-                    "weakening",
+                    "diminutive",
                     "total"
                 ]
             },
@@ -832,7 +823,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "verbalizer"
+                    "to verb"
                 ]
             },
         ]
@@ -856,11 +847,11 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "derivation",
-                    "nominalizer",
+                    "to noun",
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "affixation",
+                    "with affix",
                 ]
             },
             {
@@ -875,7 +866,7 @@ export const OceanicLanguages = [
                 page: "90",
                 tags: [
                     "verb",
-                    "nominalizer",
+                    "to noun",
                     "partial",
                     "initial",
                     "monosyllabic",
@@ -894,12 +885,12 @@ export const OceanicLanguages = [
                 page: "90",
                 tags: [
                     "verb",
-                    "nominalizer",
+                    "to noun",
                     "derivation",
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -953,20 +944,12 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "reduplicant alteration",
+                    "reduplicant change",
                     "inflection",
-                    "intensification"
+                    "intensity"
                 ]
             },
         ]
-    },
-    // prune Tuvaluan
-    {
-        name: "Tuvaluan",
-        source: "Besnier, 2000",
-        family: "Central-Eastern Oceanic",
-        region: "Tuvalu",
-        reduplication: []
     },
     {
         name: "Mussau-Emira",
@@ -989,7 +972,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "to noun",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1007,7 +990,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "to noun",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1041,7 +1024,7 @@ export const OceanicLanguages = [
                     "noun",
                     "to adjective",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1059,7 +1042,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "to adjective",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1131,7 +1114,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1187,7 +1170,7 @@ export const OceanicLanguages = [
                     "verb",
                     "derivation",
                     "to noun",
-                    "affixation",
+                    "with affix",
                     "partial",
                     "initial",
                     "monosyllabic"
@@ -1243,7 +1226,7 @@ export const OceanicLanguages = [
                 page: "164",
                 tags: [
                     "verb",
-                    "intensifier",
+                    "intensity",
                     "partial",
                     "initial",
                     "monosyllabic"
@@ -1257,7 +1240,7 @@ export const OceanicLanguages = [
                 page: "164",
                 tags: [
                     "total",
-                    "intensifier",
+                    "intensity",
                     "verb"
                 ]
             },
@@ -1281,7 +1264,7 @@ export const OceanicLanguages = [
                     "aspect",
                     "habitual",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1398,7 +1381,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "to noun",
                     "inflection",
-                    "intensifier",
+                    "intensity",
                     "partial",
                     "initial",
                     "monosyllabic"
@@ -1439,7 +1422,7 @@ export const OceanicLanguages = [
                     "derivation",
                     "to adjective",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1477,7 +1460,7 @@ export const OceanicLanguages = [
                     "inflection",
                     "plural",
                     "total",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1507,7 +1490,7 @@ export const OceanicLanguages = [
                 page: "95",
                 tags: [
                     "adjective",
-                    "intensifier",
+                    "intensity",
                     "total"
                 ]
             },
@@ -1629,7 +1612,7 @@ export const OceanicLanguages = [
                     "verb",
                     "partial",
                     "initial",
-                    "bisyllabic",
+                    "disyllabic",
                     "aspect",
                     "inflection",
                     "progressive"
@@ -1670,7 +1653,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "affixation",
+                    "with affix",
                     "diminutive",
                 ]
             },
@@ -1689,7 +1672,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "affixation",
+                    "with affix",
                     "diminutive",
                     "reduplicant change",
                 ]
@@ -1726,7 +1709,7 @@ export const OceanicLanguages = [
                 page: "118",
                 tags: [
                     "adjective",
-                    "vacuous"
+                    "no change"
                 ]
             },
             {
@@ -1761,7 +1744,7 @@ export const OceanicLanguages = [
                 page: "119",
                 tags: [
                     "verb",
-                    "adjectivizer",
+                    "to adjective",
                     "partial",
                     "initial",
                     "monosyllabic",
@@ -1889,7 +1872,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "affixation",
+                    "with affix",
                     "agreement",
                     "inflection",
                 ]
@@ -1932,7 +1915,7 @@ export const OceanicLanguages = [
                     "adjective",
                     "total",
                     "emphasis",
-                    "intensifier",
+                    "intensity",
                 ]
             },
             {
@@ -1947,10 +1930,10 @@ export const OceanicLanguages = [
                 page: "149",
                 tags: [
                     "noun",
-                    "verbalizer",
+                    "to verb",
                     "total",
                     "derivation",
-                    "affixation"
+                    "with affix"
                 ]
             },
             {
@@ -1965,10 +1948,10 @@ export const OceanicLanguages = [
                 page: "149",
                 tags: [
                     "noun",
-                    "verbalizer",
+                    "to verb",
                     "total",
                     "derivation",
-                    "affixation"
+                    "with affix"
                 ]
             },
         ]
@@ -2010,7 +1993,7 @@ export const OceanicLanguages = [
                     "noun",
                     "partial",
                     "final",
-                    "bisyllabic",
+                    "disyllabic",
                     "inflection",
                     "plural"
                 ]
@@ -2071,7 +2054,7 @@ export const OceanicLanguages = [
                     "monosyllabic",
                     "progressive",
                     "inflection",
-                    "circumfix"
+                    "circumfixed"
                 ]
             },
             {
@@ -2104,7 +2087,7 @@ export const OceanicLanguages = [
                 tags: [
                     "adjective",
                     "inflection",
-                    "intensification",
+                    "intensity",
                     "total"
                 ]
             },
@@ -2119,12 +2102,12 @@ export const OceanicLanguages = [
                 },
                 page: "49",
                 tags: [
-                    "adverbalizer",
+                    "adto verb",
                     "adjective",
                     "derivation",
                     "partial",
                     "final",
-                    "bisyllabic"
+                    "disyllabic"
                 ]
             },
             {
@@ -2142,7 +2125,7 @@ export const OceanicLanguages = [
                     "verb",
                     "inflection",
                     "valency change",
-                    "intransitivizer",
+                    "intransitive",
                 ]
             },
             {
@@ -2226,7 +2209,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "intensification",
+                    "intensity",
                     "inflection",
                 ]
             },
@@ -2245,7 +2228,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "weakening",
+                    "diminutive",
                     "color",
                     "inflection",
                 ]
@@ -2263,7 +2246,7 @@ export const OceanicLanguages = [
                 tags: [
                     "adjective",
                     "total",
-                    "weakening",
+                    "diminutive",
                     "inflection",
                 ]
             },
@@ -2302,7 +2285,7 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "intensification",
+                    "intensity",
                     "derivation",
                     "inflection",
                     "lexical",
@@ -2405,7 +2388,7 @@ export const OceanicLanguages = [
                     "lengthening",
                     "partial",
                     "medial",
-                    "nominalizer",
+                    "to noun",
                     "derivation",
                 ]
             },
@@ -2424,7 +2407,7 @@ export const OceanicLanguages = [
                     "lengthening",
                     "partial",
                     "medial",
-                    "adjectivizer",
+                    "to adjective",
                     "derivation",
                 ]
             },
@@ -2444,7 +2427,7 @@ export const OceanicLanguages = [
                     "partial",
                     "medial",
                     "all but first",
-                    "verbalizer",
+                    "to verb",
                     "derivation",
                 ]
             },
