@@ -1818,7 +1818,7 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "inflection",
-                    "plural",
+                    "number change",
                     "total",
                 ]
             },
@@ -1835,7 +1835,7 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "inflection",
-                    "plural",
+                    "number change",
                     "partial",
                     "initial",
                     "monosyllabic",
@@ -1866,26 +1866,6 @@ export const OceanicLanguages = [
                 ]
             },
             {
-                form: "kakhai",
-                gloss: "",
-                translation: "eat (plural)",
-                control: {
-                    form: "kai",
-                    gloss: "",
-                    translation: "eat",
-                },
-                page: "93",
-                tags: [
-                    "verb",
-                    "inflection",
-                    "agreement",
-                    "partial",
-                    "initial",
-                    "monosyllabic",
-                    "stem change",
-                ]
-            },
-            {
                 form: "Ko-i tu~tuhi-a a lakau",
                 gloss: "<span>incp</span>-<span>3sg</span> <span>red</span>~cut-<span>tr</span> <span>coll</span> tree",
                 translation: "She cut down the trees",
@@ -1900,8 +1880,8 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "with affix",
                     "agreement",
+                    "object agreement",
                     "inflection",
                 ]
             },
@@ -1942,8 +1922,8 @@ export const OceanicLanguages = [
                 tags: [
                     "adjective",
                     "total",
-                    "emphasis",
                     "intensity",
+                    "inflection"
                 ]
             },
             {
@@ -1976,6 +1956,7 @@ export const OceanicLanguages = [
                 page: "149",
                 tags: [
                     "noun",
+                    "lexical",
                     "to verb",
                     "total",
                     "derivation",
@@ -2004,7 +1985,7 @@ export const OceanicLanguages = [
                     "noun",
                     "total",
                     "inflection",
-                    "plural"
+                    "number change"
                 ]
             },
             {
@@ -2023,7 +2004,7 @@ export const OceanicLanguages = [
                     "final",
                     "disyllabic",
                     "inflection",
-                    "plural"
+                    "number change"
                 ]
             },
             {
@@ -2042,6 +2023,7 @@ export const OceanicLanguages = [
                     "initial",
                     "monosyllabic",
                     "progressive",
+                    "aspect",
                     "inflection",
                 ]
             },
@@ -2061,7 +2043,7 @@ export const OceanicLanguages = [
                     "medial",
                     "monosyllabic",
                     "inflection",
-                    "plural"
+                    "number change"
                 ]
             },
             {
@@ -2081,8 +2063,11 @@ export const OceanicLanguages = [
                     "initial",
                     "monosyllabic",
                     "progressive",
+                    "aspect",
                     "inflection",
-                    "circumfixed"
+                    "circumfixed",
+                    "double",
+                    "unique"
                 ]
             },
             {
@@ -2097,7 +2082,7 @@ export const OceanicLanguages = [
                 page: "43",
                 tags: [
                     "distributive",
-                    "derivation",
+                    "number change",
                     "number",
                     "total"
                 ]
@@ -2130,7 +2115,7 @@ export const OceanicLanguages = [
                 },
                 page: "49",
                 tags: [
-                    "adto verb",
+                    "to adverb",
                     "adjective",
                     "derivation",
                     "partial",
@@ -2172,7 +2157,8 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "continuous"
+                    "continuous",
+                    "aspect"
                 ]
             },
             {
@@ -2191,7 +2177,8 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "habitual"
+                    "habitual",
+                    "aspect"
                 ]
             },
         ]
@@ -2218,8 +2205,9 @@ export const OceanicLanguages = [
                     "initial",
                     "monosyllabic",
                     "agreement",
-                    "plural",
+                    "number agreement",
                     "inflection",
+                    "unique"
                 ]
             },
             {
@@ -2275,7 +2263,8 @@ export const OceanicLanguages = [
                     "adjective",
                     "total",
                     "diminutive",
-                    "inflection",
+                    "derivation",
+                    "to adjective"
                 ]
             },
             {
@@ -2295,7 +2284,6 @@ export const OceanicLanguages = [
                     "monosyllabic",
                     "reciprocal",
                     "inflection",
-                    "derivation"
                 ]
             },
             {
@@ -2315,7 +2303,7 @@ export const OceanicLanguages = [
                     "monosyllabic",
                     "intensity",
                     "derivation",
-                    "inflection",
+                    "to verb",
                     "lexical",
                 ]
             },
@@ -2334,6 +2322,7 @@ export const OceanicLanguages = [
                     "total",
                     "iterative",
                     "inflection",
+                    "aspect"
                 ]
             },
             {
@@ -2349,9 +2338,12 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "total",
-                    "iterative",
                     "inflection",
+                    "iterative",
+                    "aspect",
                     "derivation",
+                    "to verb",
+                    "lexical"
                 ]
             },
             {
@@ -2369,6 +2361,7 @@ export const OceanicLanguages = [
                     "total",
                     "individuality",
                     "inflection",
+                    "unique"
                 ]
             },
             {
@@ -2385,12 +2378,13 @@ export const OceanicLanguages = [
                     "verb",
                     "total",
                     "agreement",
+                    "object agreement",
                     "inflection",
                 ]
             },
             {
                 form: "Kua tīmata ia ki te kurukuru rīwai",
-                gloss: "UNAVAILABLE",
+                gloss: "",
                 translation: "He has started to chuck potatoes about",
                 control: null,
                 page: "103",
@@ -2398,6 +2392,7 @@ export const OceanicLanguages = [
                     "verb",
                     "total",
                     "agreement",
+                    "object agreement",
                     "inflection",
                 ]
             },
@@ -2455,6 +2450,7 @@ export const OceanicLanguages = [
                     "partial",
                     "medial",
                     "all but first",
+                    "double",
                     "to verb",
                     "derivation",
                 ]
