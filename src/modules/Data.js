@@ -1007,6 +1007,7 @@ export const OceanicLanguages = [
                     "noun",
                     "inflection",
                     "indefinite possession",
+                    "unique",
                     "total",
                     "verb",
                     "aspect",
@@ -1027,6 +1028,7 @@ export const OceanicLanguages = [
                     "color",
                     "noun",
                     "to adjective",
+                    "derivation",
                     "total",
                     "with affix"
                 ]
@@ -1193,6 +1195,7 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "emphasis",
+                    "inflection",
                     "partial",
                     "initial",
                     "monosyllabic",
@@ -1212,7 +1215,6 @@ export const OceanicLanguages = [
                     "verb",
                     "to adverb",
                     "derivation",
-                    "temporal",
                     "partial",
                     "initial",
                     "monosyllabic"
@@ -1231,6 +1233,8 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "intensity",
+                    "derivation",
+                    "to verb",
                     "partial",
                     "initial",
                     "monosyllabic"
@@ -1245,7 +1249,8 @@ export const OceanicLanguages = [
                 tags: [
                     "total",
                     "intensity",
-                    "verb"
+                    "verb",
+                    "inflection"
                 ]
             },
         ]
@@ -1351,13 +1356,13 @@ export const OceanicLanguages = [
                 ]
             },
             {
-                form: "sah",
+                form: "sɛhisah",
                 gloss: "",
-                translation: "carve (transitive)",
+                translation: "carve (intransitive)",
                 control: {
-                    form: "sɛhisah",
+                    form: "sah",
                     gloss: "",
-                    translation: "carve (intransitive)",
+                    translation: "carve (transitive)",
                 },
                 page: "81",
                 tags: [
@@ -1384,6 +1389,7 @@ export const OceanicLanguages = [
                     "adjective",
                     "derivation",
                     "to noun",
+                    "lexical",
                     "inflection",
                     "intensity",
                     "partial",
@@ -1430,11 +1436,11 @@ export const OceanicLanguages = [
                 ]
             },
             {
-                form: "piliŋ",
+                form: "pililiŋ",
                 gloss: "",
                 translation: "waiting",
                 control: {
-                    form: "pililiŋ",
+                    form: "piliŋ",
                     gloss: "",
                     translation: "wait",
                 },
@@ -1446,7 +1452,8 @@ export const OceanicLanguages = [
                     "progressive",
                     "partial",
                     "medial",
-                    "monosyllabic"
+                    "monosyllabic",
+                    "with affix"
                 ]
             },
             {
@@ -1462,7 +1469,7 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "inflection",
-                    "plural",
+                    "number change",
                     "total",
                     "with affix"
                 ]
@@ -1480,6 +1487,7 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "derivation",
+                    "lexical",
                     "to noun",
                     "partial",
                     "initial",
@@ -1495,6 +1503,7 @@ export const OceanicLanguages = [
                 tags: [
                     "adjective",
                     "intensity",
+                    "inflection",
                     "total"
                 ]
             },
