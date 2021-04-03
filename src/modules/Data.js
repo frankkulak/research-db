@@ -711,6 +711,8 @@ export const OceanicLanguages = [
                     "total",
                     "continuous",
                     "agreement",
+                    "subject agreement",
+                    "aspect"
                 ]
             },
             {
@@ -725,12 +727,11 @@ export const OceanicLanguages = [
                 page: "66",
                 tags: [
                     "noun",
-                    "inflection",
-                    "derivation",
-                    "plural",
                     "partial",
                     "initial",
                     "monosyllabic",
+                    "inflection",
+                    "number change",
                 ]
             },
             {
@@ -745,12 +746,13 @@ export const OceanicLanguages = [
                 page: "66",
                 tags: [
                     "verb",
-                    "agreement",
                     "partial",
                     "initial",
                     "disyllabic",
                     "inflection",
-                    "repetition",
+                    "agreement",
+                    "subject agreement",
+                    "aspect",
                     "iterative",
                 ]
             },
@@ -803,8 +805,9 @@ export const OceanicLanguages = [
                 tags: [
                     "noun",
                     "derivation",
+                    "to noun",
                     "diminutive",
-                    "diminutive",
+                    "lexical",
                     "total"
                 ]
             },
@@ -823,7 +826,8 @@ export const OceanicLanguages = [
                     "partial",
                     "initial",
                     "monosyllabic",
-                    "to verb"
+                    "to verb",
+                    "derivation"
                 ]
             },
         ]
@@ -906,7 +910,6 @@ export const OceanicLanguages = [
                 tags: [
                     "verb",
                     "inflection",
-                    "derivation",
                     "valency change",
                     "intransitive",
                     "partial",
@@ -927,6 +930,7 @@ export const OceanicLanguages = [
                     "initial",
                     "monosyllabic",
                     "iterative",
+                    "aspect"
                 ]
             },
             {
