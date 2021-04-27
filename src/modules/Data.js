@@ -1470,7 +1470,6 @@ export const OceanicLanguages = [
                     "partial",
                     "medial",
                     "monosyllabic",
-                    "with affix"
                 ]
             },
             {
@@ -1696,7 +1695,7 @@ export const OceanicLanguages = [
                 ]
             },
             {
-                form: "sa~ba-biqeg",
+                form: "sa-ba~biqeg",
                 gloss: "",
                 translation: "to read a little",
                 control: {
@@ -2466,6 +2465,7 @@ export const OceanicLanguages = [
                     "lengthening",
                     "partial",
                     "medial",
+                    "final",
                     "all but first",
                     "double",
                     "to verb",
