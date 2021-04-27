@@ -103,9 +103,10 @@
             </div>
 
             <div class="p-3">
-                <p>This website was created by <a href="https://frankkulak.com" target="_blank">Frank Kulak</a> in
-                    April 2021.</p>
-                <p>You are free to use this data, so long as you credit me and the original sources.</p>
+                <p>This website was created by <a href="https://frankkulak.com" target="_blank">Frank Kulak</a>
+                    in affiliation with the Northeastern University Department of Linguistics.</p>
+                <p>You are free to use this data with attribution under the <a href="https://github.com/frankkulak/research-db/blob/master/LICENSE" target="_blank">MIT License</a>.</p>
+                <p>Frank Kulak © 2021</p>
             </div>
         </b-container>
     </div>
@@ -130,7 +131,6 @@
     };
 
     const sortedOceanicLanguages = OceanicLanguages.sort(sortByName);
-    // const sortedOtherLanguages = OtherLanguages.sort(sortByName);
 
     export default {
         name: 'HomePage',
@@ -154,12 +154,6 @@
 
                 return languagesToShow;
             },
-            // numOceanicLanguagesShown() {
-            //     return document.getElementById("oceanic-languages-div").childElementCount;
-            // },
-            // numOceanicLanguages() {
-            //     return sortedOceanicLanguages.length;
-            // },
             allTags() {
                 const sortedEntries = Object.entries(AllTags).sort(([, count1], [, count2]) => {
                     if (count1 > count2) {
