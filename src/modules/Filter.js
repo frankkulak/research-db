@@ -12,7 +12,7 @@ const shorthands = {
     tv: "Tuvalu",
     nz: "New Zealand",
     sa: "Samoa",
-    mc: "Micronesia"
+    mc: "Federated States of Micronesia"
 };
 
 function replaceShorthands(entry) {

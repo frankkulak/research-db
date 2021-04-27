@@ -1659,7 +1659,7 @@ export const OceanicLanguages = [
         name: "Yapese",
         source: "Jenson, 1977",
         family: "Yapese",
-        region: "Micronesia",
+        region: "Federated States of Micronesia",
         reduplication: [
             {
                 form: "roowroow",
@@ -2470,48 +2470,6 @@ export const OceanicLanguages = [
                     "double",
                     "to verb",
                     "derivation",
-                ]
-            },
-        ]
-    },
-];
-
-export const OtherLanguages = [
-    {
-        name: "Aztec",
-        source: "Moravcsik, 1978",
-        reduplication: [
-            {
-                form: "wom~woman",
-                gloss: "<span>red</span>~bark.at",
-                translation: "he is barking at",
-                control: null,
-                page: "308",
-                tags: [
-                    "initial",
-                    "partial",
-                    "monosyllabic",
-                    "agreement",
-                    "verb",
-                    "inflection"
-                ]
-            },
-        ]
-    },
-    {
-        name: "Mandarin",
-        source: "Moravcsik, 1978",
-        reduplication: [
-            {
-                form: "ren~ren",
-                gloss: "<span>red</span>~man",
-                translation: "everyone",
-                control: null,
-                page: "318",
-                tags: [
-                    "total",
-                    "noun",
-                    "collective"
                 ]
             },
         ]
