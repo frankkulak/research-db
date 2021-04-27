@@ -101,6 +101,12 @@
             <div v-show="oceanicLanguages.length === 0" class="mb-5">
                 <em>No matching languages.</em>
             </div>
+
+            <div class="p-3">
+                <p>This website was created by <a href="https://frankkulak.com" target="_blank">Frank Kulak</a> in
+                    April 2021.</p>
+                <p>You are free to use this data, so long as you credit me and the original sources.</p>
+            </div>
         </b-container>
     </div>
 </template>
