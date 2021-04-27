@@ -86,7 +86,7 @@
                 </b-col>
 
                 <b-col cols="12" class="px-3 pt-3 mt-3 all-tags-display" v-show="showTags === 'true'">
-                    <h6><em>All tags (Oceanic only)</em></h6>
+                    <h6><em>All tags</em></h6>
                     <tag-list :show-self="showTags" :tag-list="allTags"/>
                 </b-col>
             </b-row>
@@ -100,14 +100,6 @@
             </div>
             <div v-show="oceanicLanguages.length === 0" class="mb-5">
                 <em>No matching languages.</em>
-            </div>
-
-            <div v-show="showOther === 'true'">
-                <hr>
-                <h6 class="mb-5"><em>Other Languages</em></h6>
-                <language-display v-for="language in otherLanguages" :key="language.name"
-                                  :lang="language" :oceanic="false" :show-tags="showTags"
-                                  :filter-queries="filterQueries" :show-no-match="showNoMatch"/>
             </div>
         </b-container>
     </div>
@@ -193,7 +185,6 @@
             position: fixed;
             right: 12px;
             bottom: 12px;
-            opacity: 80%;
             z-index: 1024;
         }
 
